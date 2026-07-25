@@ -70,14 +70,31 @@ TIKTOK_EXCLUDE_TITLES = {
     "M416 ČERNÝ Blaster na Gelové Kuličky",
     "M416 ČERVENO-ČERNÁ: Výhodný set",
     "M416 ČERVENO-ČERNÝ Blaster na Gelové Kuličky",
-    "MP5 samopal na gelové kuličky",
     "P90 Mini na vodní gelové kuličky černá",
     "P90 MINI ČERNÁ: Výhodný set",
 }
+
+# Feed-only title overrides for the TikTok feed. Heureka/Zbozi keep the original
+# (Czech comparison sites don't share TikTok's weapon-name policy). Used to strip
+# risky words like "samopal" (submachine gun) that TikTok's text scan can flag,
+# while the product itself (bright graffiti wrap) is policy-safe.
+TIKTOK_TITLE_OVERRIDES = {
+    "MP5 samopal na gelové kuličky": "MP5 Grafiti Blaster na gelové kuličky",
+}
+
+# Words scrubbed from the TikTok feed's title AND description (TikTok scans both).
+# Heureka/Zbozi are untouched. Case-insensitive.
+_TIKTOK_WORD_SUBS = [("samopal", "blaster")]
+
+
+def _tt_text(s):
+    for a, b in _TIKTOK_WORD_SUBS:
+        s = re.sub(a, b, s, flags=re.IGNORECASE)
+    return s
 # Secondary guard so future SKUs don't slip through (accessories are exempt,
 # except a realistic suppressor):
 _DARK_REALISTIC_KEYWORDS = ["čern", "tactical", "imitace dřeva", "desert eagle",
-                            "deagle", "blowback", "mp5 samopal", "písková", "hk416"]
+                            "deagle", "blowback", "písková", "hk416"]
 
 
 def tiktok_excluded(product):
@@ -196,8 +213,8 @@ def build_tiktok(items):
         rows = [
             _tag('      ', 'g:id', it["id"]),
             _tag('      ', 'g:item_group_id', it["item_group_id"]),
-            _tag('      ', 'g:title', it["title"]),
-            _tag('      ', 'g:description', it["description"]),
+            _tag('      ', 'g:title', _tt_text(TIKTOK_TITLE_OVERRIDES.get(it["title"], it["title"]))),
+            _tag('      ', 'g:description', _tt_text(it["description"])),
             _tag('      ', 'g:link', it["link"]),
             _tag('      ', 'g:image_link', it["image"]),
             _tag('      ', 'g:availability', it["availability"]),

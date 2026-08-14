@@ -13,7 +13,7 @@
     <EAN>0792649296103</EAN>
     <PRODUCTNO>M416MODRA</PRODUCTNO>
     <ITEMGROUP_ID>8238263566602</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44597142356234</ITEM_ID>
@@ -28,7 +28,7 @@
     <EAN>0792649296172</EAN>
     <PRODUCTNO>glockmodry</PRODUCTNO>
     <ITEMGROUP_ID>8240132587786</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44626479874314</ITEM_ID>
@@ -113,7 +113,7 @@
     <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
     <PRODUCTNO>barel50-m</PRODUCTNO>
     <ITEMGROUP_ID>8269023576330</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44645627298058</ITEM_ID>
@@ -155,7 +155,7 @@
     <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
     <PRODUCTNO>light10</PRODUCTNO>
     <ITEMGROUP_ID>8269299220746</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44646340296970</ITEM_ID>
@@ -197,13 +197,13 @@
     <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
     <PRODUCTNO>hard10</PRODUCTNO>
     <ITEMGROUP_ID>8289529233674</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44775810171146</ITEM_ID>
-    <PRODUCTNAME>M416 ČERVENÁ pistole na vodní gelové kuličky (PŘEDOBJEDNÁVKA)</PRODUCTNAME>
-    <PRODUCT>M416 ČERVENÁ pistole na vodní gelové kuličky (PŘEDOBJEDNÁVKA)</PRODUCT>
-    <DESCRIPTION>⏳ Předobjednávka: Tento produkt lze předobjednat! Očekávané datum expedice: 25. 8. 2026 . Náš nejprodávanější blaster na gelové kuličky! Elektrická M416 je spolehlivá cesta k obrovské zábavě. V balení najdeš úplně všechno do akce — puškohled, tlumič, mířidla, baterii i ochranné brýle. Díky velkému dostřelu a dvojímu módu střelby si užiješ manuální i full-auto režim. Klíčové vlastnosti ⚡ 22 kuliček za vteřinu 🔄 2 módy střelby 🔋 USB dobíjení v balení 🎯 Příslušenství v balení 🛡 Záruka &amp; podpora v ČR</DESCRIPTION>
+    <PRODUCTNAME>M416 ČERVENÁ pistole na vodní gelové kuličky</PRODUCTNAME>
+    <PRODUCT>M416 ČERVENÁ pistole na vodní gelové kuličky</PRODUCT>
+    <DESCRIPTION>Náš nejprodávanější blaster na gelové kuličky! Elektrická M416 je spolehlivá cesta k obrovské zábavě. V balení najdeš úplně všechno do akce — puškohled, tlumič, mířidla, baterii i ochranné brýle. Díky velkému dostřelu a dvojímu módu střelby si užiješ manuální i full-auto režim. Klíčové vlastnosti ⚡ 22 kuliček za vteřinu 🔄 2 módy střelby 🔋 USB dobíjení v balení 🎯 Příslušenství v balení 🛡 Záruka &amp; podpora v ČR</DESCRIPTION>
     <URL>https://gel-gun.cz/products/m416-cervena?variant=44775810171146</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/1_c115faef-e822-4699-99b4-53a633d45c80.jpg?v=1778334167</IMGURL>
     <PRICE_VAT>1049.00</PRICE_VAT>
@@ -241,7 +241,7 @@
     <EAN>0792649296141</EAN>
     <PRODUCTNO>akm47modry</PRODUCTNO>
     <ITEMGROUP_ID>8302847328522</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44876374442250</ITEM_ID>
@@ -357,7 +357,7 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <PRODUCTNO>M416CC</PRODUCTNO>
     <ITEMGROUP_ID>10007884300554</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968857870602</ITEM_ID>
@@ -371,7 +371,7 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <PRODUCTNO>p90_bk</PRODUCTNO>
     <ITEMGROUP_ID>10007890166026</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968900108554</ITEM_ID>
@@ -385,7 +385,7 @@
     <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
     <PRODUCTNO>TERC-1</PRODUCTNO>
     <ITEMGROUP_ID>10007908090122</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968946671882</ITEM_ID>
@@ -439,7 +439,7 @@
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10009900056842</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>51592637153546</ITEM_ID>
@@ -485,12 +485,12 @@
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>51968383451402</ITEM_ID>
-    <PRODUCTNAME>M416 TACTICAL - Černý Blaster na Gelové kuličky (PŘEDOBJEDNÁVKA)</PRODUCTNAME>
-    <PRODUCT>M416 TACTICAL - Černý Blaster na Gelové kuličky (PŘEDOBJEDNÁVKA)</PRODUCT>
-    <DESCRIPTION>⏳ Předobjednávka: Tento produkt lze předobjednat! Očekávané datum expedice: 25. 8. 2026 . Elektrická M416 na gelové kuličky ve verzi TACTICAL je spolehlivou cestou k obrovské zábavě za rozumnou cenu. V balení navíc najdeš vše, co potřebuješ do akce. S velkým dostřelem se navíc neztratíš v žádné hře. 2 nezávislé mody střelby v jedné pušce: manuální a elektrický Plně automatická střelba při pohonu baterií. Střílí zhruba 12 kuliček za vteřinu . Kompatibilní s příslušenstvím pro RIS lišty (např. airsoftové svítilny či Red Doty) Funkční pojistka. Možnost střelby bez baterie . Dva zásobníky v ceně: Bubnový a běžný Včetně příslušenství v balení : mířidla, puškohled, tlumič, dvě ručky, kuličky, baterie i brýle. Jednoduché dobíjení baterie pomocí USB. Záruka a podpora v ČR.</DESCRIPTION>
+    <PRODUCTNAME>M416 TACTICAL - Černý Blaster na Gelové kuličky</PRODUCTNAME>
+    <PRODUCT>M416 TACTICAL - Černý Blaster na Gelové kuličky</PRODUCT>
+    <DESCRIPTION>Elektrická M416 na gelové kuličky ve verzi TACTICAL je spolehlivou cestou k obrovské zábavě za rozumnou cenu. V balení navíc najdeš vše, co potřebuješ do akce. S velkým dostřelem se navíc neztratíš v žádné hře. 2 nezávislé mody střelby v jedné pušce: manuální a elektrický Plně automatická střelba při pohonu baterií. Střílí zhruba 12 kuliček za vteřinu . Kompatibilní s příslušenstvím pro RIS lišty (např. airsoftové svítilny či Red Doty) Funkční pojistka. Možnost střelby bez baterie . Dva zásobníky v ceně: Bubnový a běžný Včetně příslušenství v balení : mířidla, puškohled, tlumič, dvě ručky, kuličky, baterie i brýle. Jednoduché dobíjení baterie pomocí USB. Záruka a podpora v ČR.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/m416-tactical-cerny-blaster-na-gelove-kulicky?variant=51968383451402</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/M4_CERNA.jpg?v=1761498445</IMGURL>
-    <PRICE_VAT>1349.00</PRICE_VAT>
+    <PRICE_VAT>1190.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <PRODUCTNO>M416T</PRODUCTNO>
@@ -509,7 +509,7 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <PRODUCTNO>AKDREVO</PRODUCTNO>
     <ITEMGROUP_ID>10278410518794</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52176486629642</ITEM_ID>
@@ -786,7 +786,7 @@
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565449023754</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354134864138</ITEM_ID>
@@ -838,7 +838,7 @@
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484740874</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406445322</ITEM_ID>
@@ -851,7 +851,7 @@
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484773642</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406478090</ITEM_ID>
@@ -903,7 +903,7 @@
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484937482</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406641930</ITEM_ID>

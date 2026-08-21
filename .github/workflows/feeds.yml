@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - "feeds.py"
+      - "feeds_sk.py"
       - "run_feeds.py"
       - ".github/workflows/feeds.yml"
 permissions:
@@ -26,30 +27,43 @@ jobs:
           SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
           SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
         run: python run_feeds.py
-      - name: Check google.xml before publishing
-        # Refuses to publish a Google feed that lost its ?view=safe links or that
-        # picked up a model name in a title, description or image URL. Keeps a bad
-        # run from overwriting the last good feed.
+      - name: Check the Google feeds before publishing
+        # Refuses to publish a Google feed that lost its ?view=safe links, picked up
+        # a model name, went short, or (for the Slovak feed) slipped back to CZK or
+        # to a Czech landing page. Keeps a bad run from overwriting the last good feed.
         run: |
           python - <<'PY'
           import re, sys, xml.etree.ElementTree as ET
           NS = {'g': 'http://base.google.com/ns/1.0'}
-          items = ET.parse('docs/feeds/google.xml').getroot().findall('.//item')
-          bad = []
-          BAD = re.compile(r'glock|m416|hk416|ak47|akm47|p90|mp5|skd|desert|pistol|puš|pusk|zbran|zbraň|samopal|tlumi|airsoft|joule', re.I)
-          for it in items:
-              get = lambda k: (it.find('g:' + k, NS).text or '')
-              if '&view=safe' not in get('link'):
-                  bad.append('link without view=safe: ' + get('link'))
-              for field in ('title', 'description', 'image_link'):
-                  if BAD.search(get(field)):
-                      bad.append(f'{field}: {get(field)[:80]}')
-          if len(items) < 20:
-              bad.append(f'only {len(items)} items — expected ~29')
-          if bad:
-              print('\n'.join(bad[:20]))
+          BAD = re.compile(r'glock|m416|hk416|ak47|akm47|p90|mp5|skd|desert|pistol|pišto|puš|pusk|zbran|zbraň|samopal|tlmič|tlumič|airsoft|joule', re.I)
+
+          def check(path, currency, path_prefix):
+              items = ET.parse(path).getroot().findall('.//item')
+              bad = []
+              for it in items:
+                  get = lambda k: ((it.find('g:' + k, NS).text if it.find('g:' + k, NS) is not None else '') or '')
+                  link = get('link')
+                  if '&view=safe' not in link:
+                      bad.append(f'{path}: link without view=safe: {link}')
+                  if path_prefix and path_prefix not in link:
+                      bad.append(f'{path}: link outside {path_prefix}: {link}')
+                  if not get('price').endswith(currency):
+                      bad.append(f'{path}: price not in {currency}: {get("price")}')
+                  for field in ('title', 'description', 'image_link'):
+                      if BAD.search(get(field)):
+                          bad.append(f'{path} {field}: {get(field)[:80]}')
+              if len(items) < 20:
+                  bad.append(f'{path}: only {len(items)} items - expected ~29')
+              print(f'{path}: {len(items)} items')
+              return bad
+
+          problems = []
+          problems += check('docs/feeds/google.xml', 'CZK', None)
+          problems += check('docs/feeds/google-sk.xml', 'EUR', '/sk-sk/')
+          if problems:
+              print('\n'.join(problems[:20]))
               sys.exit('REFUSING TO PUBLISH')
-          print(f'google.xml OK: {len(items)} items')
+          print('both Google feeds OK')
           PY
       - name: Commit updated feeds
         run: |

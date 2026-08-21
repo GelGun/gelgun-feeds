@@ -4,8 +4,10 @@ feeds_sk.py — Slovak Google Merchant Center feed for gel-gun.cz.
 Emits docs/feeds/google-sk.xml: the same 29 items as google.xml, but
 
   • linked to the Slovak storefront   /sk-sk/products/<handle>?variant=<id>&view=safe
-  • titled and described from the SLOVAK translations of the safe.* metafields,
-    so the feed text is exactly what the Slovak page renders
+  • TITLED from the Slovak safe.title translation, so the feed title is exactly the
+    page H1
+  • DESCRIBED from the Slovak safe.description intro plus generated family copy —
+    NOT from safe.features. See the note above _SK_FAMILY_DESC for why
   • priced in EUR, read from the live /sk-sk/ storefront rather than converted
 
 Product selection is shared with feeds.py — this module never decides on its own
@@ -117,14 +119,47 @@ def _money(cents):
     return f"{cents / 100:.2f} {SK_CURRENCY}"
 
 
-def sk_description(sk):
-    """Intro + feature bullets, exactly the text the Slovak page renders."""
-    parts = [sk.get("description", "").strip()]
-    feats = [ln.strip() for ln in (sk.get("features") or "").splitlines() if ln.strip()]
-    if feats:
-        parts.append(" ".join(f if f.endswith(".") else f + "." for f in feats))
-    text = " ".join(p for p in parts if p)
-    return re.sub(r"\s+", " ", text).strip()
+# Generated Slovak body copy, mirroring _G_FAMILY_DESC / _G_CLOSER in feeds.py.
+#
+# The feed description is GENERATED, not lifted from the page. That is deliberate and
+# it is the one thing this module got wrong on the first pass: `safe.features` is good
+# page copy, but it names parts — "zásobník", "poistka", "mieridlá" — which read as
+# gun-part vocabulary when a classifier sees them as bare product data with no page
+# around them. The Czech feed never had that problem because its descriptions were
+# written for the feed. Slovakia now works the same way: the intro (clean, and the
+# same one the page shows) plus a family sentence written here.
+_SK_FAMILY_DESC = {
+    "blaster": ("Elektrická hračka na mäkké vodné gélové guľôčky pre hru vonku aj na "
+                "záhrade. Guľôčky sa pred hrou nechajú napučať vo vode, po dopade sa "
+                "rozpadnú a nezanechávajú žiadny neporiadok. Nabíjanie cez USB. "
+                "V balení nájdete guľôčky, ochranné okuliare aj všetko potrebné k hre."),
+    "set": ("Zvýhodnená súprava v jednom balení – hračka na gélové guľôčky, zásoba "
+            "guľôčok a príslušenstvo za nižšiu cenu než pri samostatnom nákupe. Guľôčky "
+            "sa pred hrou nechajú napučať vo vode, po dopade sa rozpadnú a nezanechávajú "
+            "neporiadok."),
+    "ammo": ("Mäkké vodné gélové guľôčky s priemerom 7–8 mm. Pred hrou ich nechajte "
+             "3–4 hodiny napučať vo vode. Po dopade sa rozpadnú a nezanechávajú "
+             "neporiadok – zvyšky sú z väčšiny voda. Vhodné pre všetky hračky GelGun."),
+    "accessory": "Príslušenstvo k hrám s vodnými gélovými guľôčkami GelGun.",
+}
+_SK_CLOSER = "Doprava z ČR, záruka a podpora. Odporúčané od 12 rokov."
+
+
+def sk_description(sk, family):
+    """Clean intro + generated family copy + closer. Feature bullets are deliberately
+    NOT included — see the note above."""
+    parts = [(sk.get("description") or "").strip(),
+             _SK_FAMILY_DESC.get(family, _SK_FAMILY_DESC["accessory"]),
+             _SK_CLOSER]
+    text = re.sub(r"\s+", " ", " ".join(p for p in parts if p)).strip()
+    # The page intro often already ends with the shipping line; drop repeats.
+    seen, keep = set(), []
+    for sentence in re.split(r"(?<=[.!?])\s+", text):
+        key = sentence.strip().lower()
+        if key and key not in seen:
+            seen.add(key)
+            keep.append(sentence.strip())
+    return " ".join(keep)
 
 
 def sk_link(handle, variant_id):
@@ -167,7 +202,7 @@ def build(items):
             ('id', vid),
             ('item_group_id', it["item_group_id"]),
             ('title', title),
-            ('description', sk_description(sk)),
+            ('description', sk_description(sk, feeds._google_family(h, it["product"]))),
             ('link', sk_link(h, vid)),
             ('image_link', feeds.google_image(it)),
             ('availability', feeds.google_availability(it)),

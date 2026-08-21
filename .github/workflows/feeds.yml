@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: "0 */6 * * *"   # every 6 hours
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "feeds.py"
+      - "run_feeds.py"
+      - ".github/workflows/feeds.yml"
 permissions:
   contents: write
 jobs:
@@ -20,6 +26,31 @@ jobs:
           SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
           SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
         run: python run_feeds.py
+      - name: Check google.xml before publishing
+        # Refuses to publish a Google feed that lost its ?view=safe links or that
+        # picked up a model name in a title, description or image URL. Keeps a bad
+        # run from overwriting the last good feed.
+        run: |
+          python - <<'PY'
+          import re, sys, xml.etree.ElementTree as ET
+          NS = {'g': 'http://base.google.com/ns/1.0'}
+          items = ET.parse('docs/feeds/google.xml').getroot().findall('.//item')
+          bad = []
+          BAD = re.compile(r'glock|m416|hk416|ak47|akm47|p90|mp5|skd|desert|pistol|puš|pusk|zbran|zbraň|samopal|tlumi|airsoft|joule', re.I)
+          for it in items:
+              get = lambda k: (it.find('g:' + k, NS).text or '')
+              if '&view=safe' not in get('link'):
+                  bad.append('link without view=safe: ' + get('link'))
+              for field in ('title', 'description', 'image_link'):
+                  if BAD.search(get(field)):
+                      bad.append(f'{field}: {get(field)[:80]}')
+          if len(items) < 20:
+              bad.append(f'only {len(items)} items — expected ~29')
+          if bad:
+              print('\n'.join(bad[:20]))
+              sys.exit('REFUSING TO PUBLISH')
+          print(f'google.xml OK: {len(items)} items')
+          PY
       - name: Commit updated feeds
         run: |
           git config user.name "github-actions"

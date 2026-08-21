@@ -28,18 +28,27 @@ jobs:
           SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
         run: python run_feeds.py
       - name: Check the Google feeds before publishing
-        # Refuses to publish a Google feed that lost its ?view=safe links, picked up
-        # a model name, went short, or (for the Slovak feed) slipped back to CZK or
-        # to a Czech landing page. Keeps a bad run from overwriting the last good feed.
+        # Two lists.
+        #   BAD   — model names and weapon nouns. Never acceptable anywhere. Hard fail.
+        #   PARTS — firearm part/ballistics vocabulary that has no place in toy product
+        #           data. Hard fail. This list exists because the first Slovak feed built
+        #           its descriptions from safe.features, which names parts ("mieridlá",
+        #           "zameriavač"), and Merchant Center disapproved 14 items for it while
+        #           the Czech feed — whose descriptions are generated — passed.
+        #   SOFT  — "zásobník" / "poistka". Bound to guľôčky these are established as
+        #           acceptable and the approved Czech feed contains them, so these are
+        #           reported, not failed.
         run: |
           python - <<'PY'
           import re, sys, xml.etree.ElementTree as ET
           NS = {'g': 'http://base.google.com/ns/1.0'}
-          BAD = re.compile(r'glock|m416|hk416|ak47|akm47|p90|mp5|skd|desert|pistol|pišto|puš|pusk|zbran|zbraň|samopal|tlmič|tlumič|airsoft|joule', re.I)
+          BAD   = re.compile(r'glock|m416|hk416|ak47|akm47|p90|mp5|skd|desert|pistol|pišto|puš|pusk|zbran|zbraň|samopal|tlmič|tlumič|airsoft|joule', re.I)
+          PARTS = re.compile(r'mieridl|zameriav|puškohľad|puškohled|hlaveň|hlaven|dostrel|dostřel|kaliber|kalibr|nábojnic|strelivo|střelivo|výstrel|výstřel|náboj|naboj', re.I)
+          SOFT  = re.compile(r'zásobník|poistk|pojistk', re.I)
 
           def check(path, currency, path_prefix):
               items = ET.parse(path).getroot().findall('.//item')
-              bad = []
+              bad, soft = [], 0
               for it in items:
                   get = lambda k: ((it.find('g:' + k, NS).text if it.find('g:' + k, NS) is not None else '') or '')
                   link = get('link')
@@ -50,11 +59,16 @@ jobs:
                   if not get('price').endswith(currency):
                       bad.append(f'{path}: price not in {currency}: {get("price")}')
                   for field in ('title', 'description', 'image_link'):
-                      if BAD.search(get(field)):
-                          bad.append(f'{path} {field}: {get(field)[:80]}')
+                      v = get(field)
+                      if BAD.search(v):
+                          bad.append(f'{path} {field} model/weapon term: {v[:80]}')
+                      if field != 'image_link' and PARTS.search(v):
+                          bad.append(f'{path} {field} firearm-part term: {v[:80]}')
+                  if SOFT.search(get('title') + ' ' + get('description')):
+                      soft += 1
               if len(items) < 20:
                   bad.append(f'{path}: only {len(items)} items - expected ~29')
-              print(f'{path}: {len(items)} items')
+              print(f'{path}: {len(items)} items, {soft} with soft vocabulary (zásobník/poistka)')
               return bad
 
           problems = []

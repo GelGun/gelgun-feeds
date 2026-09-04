@@ -7,7 +7,8 @@ Self-hosted product feeds for **gel-gun.cz**, generated from Shopify.
 | Google CZ | `/feeds/google.xml` | Google Merchant Center, Česko — curated toy titles, CZK, links to the `?view=safe` product pages |
 | Google SK | `/feeds/google-sk.xml` | Google Merchant Center, Slovensko — Slovak titles from the `safe.*` translations, EUR, links to `/sk-sk/…?view=safe` |
 | TikTok | `/feeds/tiktok.xml` | TikTok Catalog — brightly-coloured range only |
-| Heureka | `/feeds/heureka.xml` | Heureka.cz |
+| Heureka | `/feeds/heureka.xml` | Heureka.cz — základní XML feed 2.0 |
+| Heureka dostupnost | `/feeds/heureka-availability.xml` | Heureka.cz — dostupnostní XML soubor |
 | Zbozi | `/feeds/zbozi.xml` | Zbozi.cz / Seznam |
 
 Served via GitHub Pages: `https://gelgun.github.io/gelgun-feeds/feeds/<name>.xml`
@@ -15,15 +16,61 @@ Served via GitHub Pages: `https://gelgun.github.io/gelgun-feeds/feeds/<name>.xml
 ## Auto-update
 
 `.github/workflows/feeds.yml` regenerates every 6h, and on any push that changes
-`feeds.py`, `feeds_sk.py` or `run_feeds.py`. It needs three repository secrets (Settings →
-Secrets and variables → Actions): `SHOPIFY_SHOP`, `SHOPIFY_CLIENT_ID`,
-`SHOPIFY_CLIENT_SECRET`.
+`feeds.py`, `feeds_cz.py`, `feeds_sk.py`, `run_feeds.py` or `validate_cz.py`. It needs
+three repository secrets (Settings → Secrets and variables → Actions):
+`SHOPIFY_SHOP`, `SHOPIFY_CLIENT_ID`, `SHOPIFY_CLIENT_SECRET`.
 
-Before anything is committed, the workflow validates **both** Google feeds: every
-item must link to a `?view=safe` page, no curated field may contain a model name,
-prices must be in the feed's own currency, the Slovak feed's links must stay under
-`/sk-sk/`, and the item counts must be sane. A run that fails the check publishes
-nothing, so the last good feeds stay live.
+Before anything is committed, the workflow validates the Czech feeds with
+`validate_cz.py` — root element and namespace per file, mandatory tags, Heureka
+category paths, known `DELIVERY_ID`s, availability ids matching the product feed,
+no two variants sharing a name, and `zbozi.xml` never being a copy of
+`heureka.xml` — and **both** Google feeds: every item must link to a `?view=safe`
+page, no curated field may contain a model name, prices must be in the feed's own
+currency, the Slovak feed's links must stay under `/sk-sk/`, and the item counts
+must be sane. A run that fails either check publishes nothing, so the last good
+feeds stay live.
+
+## Czech comparison sites
+
+Built by `feeds_cz.py` — not by `feeds.py`, whose `build_heureka` / `build_zbozi`
+are superseded and no longer what gets published.
+
+**The two Heureka files are different schemas and go into different fields.** Putting
+one where the other belongs makes Heureka reject the file element by element,
+starting with `Neočekávaný element SHOP na řádku 2`.
+
+| File | Root | Heureka admin field |
+|------|------|---------------------|
+| `heureka.xml` | `<SHOP>` / `<SHOPITEM>` | Nastavení → Profil obchodu → **URL XML obchodu** |
+| `heureka-availability.xml` | `<item_list>` / `<item id="…">` | Nastavení → **Dostupnostní XML soubor** |
+
+Every offer appears in the availability feed, including the out-of-stock ones —
+an offer left out shows as "info v obchodě" on Heureka even when the product feed
+says it is in stock.
+
+`zbozi.xml` carries the mandatory `xmlns="http://www.zbozi.cz/ns/offer/1.0"`. Without
+it Seznam rejects every element the same way, which is what happened while it was a
+byte-for-byte copy of `heureka.xml`.
+
+Every offer carries `<DELIVERY>` for Zásilkovna domů (99 Kč) and Z-BOX (79 Kč),
+dropping to 0 Kč at the `FREE_SHIPPING_FROM_CZK` threshold — shipping is computed per
+offer, so it overrides whatever is set under Ceny dopravy in the admin. Heureka blocks
+shops for untrue delivery data, so `DELIVERY_PRICE_COD` is deliberately not sent: the
+cash-on-delivery surcharge is not confirmed, and the spec says to omit the tag rather
+than guess it.
+
+`CATEGORYTEXT` has to be a real path in Heureka's own tree or the tag counts as
+missing — that is what "Chybějící údaj `<CATEGORYTEXT>`" meant for 46 of 49 offers
+while the feed sent `Hračky | Zbraně a pistole na kuličky`. The two live paths are in
+`HEUREKA_CAT_WEAPONS` / `HEUREKA_CAT_ACCESSORIES`; re-check them against the
+breadcrumb on heureka.cz if Heureka reorganises the catalogue.
+
+`PRODUCTNAME` gets the Shopify variant label appended when a product has more than one
+variant — Heureka splits variants onto separate catalogue cards and blocks offers it
+cannot tell apart.
+
+`EAN` is the one warning the feed cannot fix on its own: it comes from the Shopify
+variant barcode, so a missing EAN has to be filled in Shopify.
 
 ## Google feed
 

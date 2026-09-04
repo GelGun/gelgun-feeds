@@ -137,6 +137,11 @@ def check_availability(path, product_ids, problems, now=None):
         if qty is None and eta is None:
             problems.append(f"{path}: {iid} has neither stock_quantity nor delivery_time "
                             "— Heureka reads that as 'cannot be delivered'")
+        # Heureka's schema rejects an item carrying both:
+        #   Extra element delivery_time in interleave / item failed to validate
+        if qty is not None and eta is not None:
+            problems.append(f"{path}: {iid} has both stock_quantity and delivery_time "
+                            "— Heureka's schema accepts only one of them per item")
         if qty is not None and not (qty.text or "").strip().isdigit():
             problems.append(f"{path}: {iid} stock_quantity is not a whole number")
         if eta is not None:

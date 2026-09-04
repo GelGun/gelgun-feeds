@@ -64,11 +64,16 @@ CZ_CATEGORY_FALLBACK = (HEUREKA_CAT_WEAPONS, ZBOZI_CAT_WEAPONS)
 
 # ── Doprava ──────────────────────────────────────────────────────────────────
 # Heureka blocks shops for untrue delivery data, so this mirrors the real GelGun
-# price list and nothing more. DELIVERY_PRICE_COD is deliberately NOT sent: the
-# cash-on-delivery surcharge is not confirmed, and the spec says to omit the tag
-# rather than guess it. Prices in the feed override whatever is set under
+# price list and nothing more. Prices in the feed override whatever is set under
 # Nastavení → Ceny dopravy in the admin.
+#
+# The cash-on-delivery surcharge is treated as a payment fee that sits on top of
+# the carrier price, so free shipping still costs COD_SURCHARGE_CZK on dobírka.
+# If the free-shipping promo actually waives the dobírka fee too, set
+# COD_ON_FREE_SHIPPING to False.
 FREE_SHIPPING_FROM_CZK = 1500.0
+COD_SURCHARGE_CZK = 39.0          # dobírka, on top of the carrier price
+COD_ON_FREE_SHIPPING = True       # free shipping still costs the dobírka fee
 HEUREKA_DELIVERY = [
     ("ZASILKOVNA_NA_ADRESU", 99.0),   # Zásilkovna domů
     ("Z_BOX",                79.0),   # Z-BOX, výdejní box
@@ -185,9 +190,12 @@ def _delivery_rows(indent, item):
     free = float(item["selling"]) >= FREE_SHIPPING_FROM_CZK
     rows = []
     for delivery_id, price in HEUREKA_DELIVERY:
+        base = 0.0 if free else price
+        cod = base + COD_SURCHARGE_CZK if COD_ON_FREE_SHIPPING or not free else base
         rows += [f"{indent}<DELIVERY>",
                  f"{indent}  <DELIVERY_ID>{delivery_id}</DELIVERY_ID>",
-                 f"{indent}  <DELIVERY_PRICE>{0 if free else price:.0f}</DELIVERY_PRICE>",
+                 f"{indent}  <DELIVERY_PRICE>{base:.0f}</DELIVERY_PRICE>",
+                 f"{indent}  <DELIVERY_PRICE_COD>{cod:.0f}</DELIVERY_PRICE_COD>",
                  f"{indent}</DELIVERY>"]
     return rows
 
@@ -259,18 +267,25 @@ def _next_order_deadline(now):
 
 
 def _availability_rows(indent, item, now):
-    """At least one of stock_quantity / delivery_time has to be present: an item
-    carrying neither means "cannot be delivered", and an item left out of the
-    feed altogether shows as "info v obchodě" on Heureka even when the product
-    feed says it is in stock. So every offer gets a row."""
+    """Exactly ONE of stock_quantity / delivery_time per item.
+
+    An item carrying neither means "cannot be delivered", and an item left out of
+    the feed altogether shows as "info v obchodě" on Heureka even when the
+    product feed says it is in stock — so every offer gets a row. But an item
+    carrying BOTH is rejected by Heureka's schema:
+
+        Extra element delivery_time in interleave (line N)
+        Element item failed to validate content (line N+2)
+
+    which is what the first version of this feed did for the 17 out-of-stock
+    offers. Out of stock is therefore stock_quantity 0 alone; the restock horizon
+    still reaches Heureka through DELIVERY_DATE in the product feed."""
     v = item["variant"]
     tracked = v.get("inventory_management") is not None
     qty = int(v.get("inventory_quantity") or 0)
 
     if item["availability"] != "in_stock":
-        eta = _at(now + timedelta(days=OUT_OF_STOCK_DAYS), DELIVERY_ETA_HOUR)
-        return [f"{indent}<stock_quantity>0</stock_quantity>",
-                f"{indent}<delivery_time>{_fmt(eta)}</delivery_time>"]
+        return [f"{indent}<stock_quantity>0</stock_quantity>"]
 
     if tracked and qty > 0:
         return [f"{indent}<stock_quantity>{qty}</stock_quantity>"]

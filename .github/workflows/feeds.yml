@@ -8,7 +8,9 @@ on:
     paths:
       - "feeds.py"
       - "feeds_sk.py"
+      - "feeds_cz.py"
       - "run_feeds.py"
+      - "validate_cz.py"
       - ".github/workflows/feeds.yml"
 permissions:
   contents: write
@@ -79,6 +81,13 @@ jobs:
               sys.exit('REFUSING TO PUBLISH')
           print('both Google feeds OK')
           PY
+      - name: Check the Czech feeds before publishing
+        # heureka.xml (SHOP/SHOPITEM), heureka-availability.xml (item_list/item)
+        # and zbozi.xml (SHOP + Zbozi namespace) are three different schemas. The
+        # validator refuses to publish if any of them drifts into another's shape,
+        # if an offer loses a mandatory tag, if CATEGORYTEXT stops being a real
+        # Heureka path, or if the availability ids stop matching the product feed.
+        run: python validate_cz.py docs/feeds
       - name: Commit updated feeds
         run: |
           git config user.name "github-actions"

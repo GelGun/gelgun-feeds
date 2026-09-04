@@ -46,7 +46,11 @@ starting with `Neočekávaný element SHOP na řádku 2`.
 
 Every offer appears in the availability feed, including the out-of-stock ones —
 an offer left out shows as "info v obchodě" on Heureka even when the product feed
-says it is in stock.
+says it is in stock. Each item carries **exactly one** of `stock_quantity` /
+`delivery_time`: an item with neither means "cannot be delivered", and an item with
+both is rejected by Heureka's schema (`Extra element delivery_time in interleave`).
+Out of stock is therefore `stock_quantity` 0 alone, and the restock horizon reaches
+Heureka through `DELIVERY_DATE` in the product feed.
 
 `zbozi.xml` carries the mandatory `xmlns="http://www.zbozi.cz/ns/offer/1.0"`. Without
 it Seznam rejects every element the same way, which is what happened while it was a
@@ -54,10 +58,11 @@ byte-for-byte copy of `heureka.xml`.
 
 Every offer carries `<DELIVERY>` for Zásilkovna domů (99 Kč) and Z-BOX (79 Kč),
 dropping to 0 Kč at the `FREE_SHIPPING_FROM_CZK` threshold — shipping is computed per
-offer, so it overrides whatever is set under Ceny dopravy in the admin. Heureka blocks
-shops for untrue delivery data, so `DELIVERY_PRICE_COD` is deliberately not sent: the
-cash-on-delivery surcharge is not confirmed, and the spec says to omit the tag rather
-than guess it.
+offer, so it overrides whatever is set under Ceny dopravy in the admin.
+`DELIVERY_PRICE_COD` adds the 39 Kč dobírka surcharge on top and still charges it on a
+free-shipping order; set `COD_ON_FREE_SHIPPING = False` if the promo waives the dobírka
+fee as well. Heureka blocks shops for untrue delivery data, so these have to stay in
+step with the real price list.
 
 `CATEGORYTEXT` has to be a real path in Heureka's own tree or the tag counts as
 missing — that is what "Chybějící údaj `<CATEGORYTEXT>`" meant for 46 of 49 offers

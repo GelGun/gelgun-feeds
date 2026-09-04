@@ -9,11 +9,23 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/2_ab4fef62-25e8-468f-a442-2857cbf4b318.jpg?v=1737814024</IMGURL>
     <PRICE_VAT>990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <EAN>0792649296103</EAN>
     <PRODUCTNO>M416MODRA</PRODUCTNO>
     <ITEMGROUP_ID>8238263566602</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44597142356234</ITEM_ID>
@@ -24,11 +36,23 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/GLOCK_MODRY.jpg?v=1762700073</IMGURL>
     <PRICE_VAT>990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <EAN>0792649296172</EAN>
     <PRODUCTNO>glockmodry</PRODUCTNO>
     <ITEMGROUP_ID>8240132587786</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44626479874314</ITEM_ID>
@@ -39,109 +63,205 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/P90.jpg?v=1762700943</IMGURL>
     <PRICE_VAT>990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <EAN>0792649296189</EAN>
     <PRODUCTNO>p90_blue</PRODUCTNO>
     <ITEMGROUP_ID>8263330431242</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44639930253578</ITEM_ID>
-    <PRODUCTNAME>Ochranná maska proti vodním gelovým kuličkám</PRODUCTNAME>
-    <PRODUCT>Ochranná maska proti vodním gelovým kuličkám</PRODUCT>
+    <PRODUCTNAME>Ochranná maska proti vodním gelovým kuličkám – Modrá</PRODUCTNAME>
+    <PRODUCT>Ochranná maska proti vodním gelovým kuličkám – Modrá</PRODUCT>
     <DESCRIPTION>Opatrnosti není nikdy dost, a tahle maska bezpečně ochrání celý tvůj obličej od zásahů gelovými kuličkami. Masku máme k dostání ve dvou barvách - modré a červené, stačí si jen vybrat, nasadit a jít do akce! Očekávaná expedice objednávek s touto maskou je 18. 12. 2025, s garancí doručení do Vánoc.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/maska-na-oblicej-na-objednavku?variant=44639930253578</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/MASK_NOW_BLUE.jpg?v=1743408470</IMGURL>
     <PRICE_VAT>449.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>maskazaklad</PRODUCTNO>
     <ITEMGROUP_ID>8267163336970</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44639930319114</ITEM_ID>
-    <PRODUCTNAME>Ochranná maska proti vodním gelovým kuličkám</PRODUCTNAME>
-    <PRODUCT>Ochranná maska proti vodním gelovým kuličkám</PRODUCT>
+    <PRODUCTNAME>Ochranná maska proti vodním gelovým kuličkám – Červená</PRODUCTNAME>
+    <PRODUCT>Ochranná maska proti vodním gelovým kuličkám – Červená</PRODUCT>
     <DESCRIPTION>Opatrnosti není nikdy dost, a tahle maska bezpečně ochrání celý tvůj obličej od zásahů gelovými kuličkami. Masku máme k dostání ve dvou barvách - modré a červené, stačí si jen vybrat, nasadit a jít do akce! Očekávaná expedice objednávek s touto maskou je 18. 12. 2025, s garancí doručení do Vánoc.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/maska-na-oblicej-na-objednavku?variant=44639930319114</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/MASKA_NOW.jpg?v=1742672335</IMGURL>
     <PRICE_VAT>449.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>maskaprofi</PRODUCTNO>
     <ITEMGROUP_ID>8267163336970</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Červená</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44639936119050</ITEM_ID>
-    <PRODUCTNAME>Kyblík na vodní gelové kuličky (Ammo tub)</PRODUCTNAME>
-    <PRODUCT>Kyblík na vodní gelové kuličky (Ammo tub)</PRODUCT>
+    <PRODUCTNAME>Kyblík na vodní gelové kuličky (Ammo tub) – Modrá</PRODUCTNAME>
+    <PRODUCT>Kyblík na vodní gelové kuličky (Ammo tub) – Modrá</PRODUCT>
     <DESCRIPTION>Už žádné hledání vhodných nádob u rodičů v kuchyni, s tímhle kyblíkem můžeš hydratovat a skladovat obrovské množství gelletek najednou, takže budeš vždy ready do akce a navíc se nemusíš už nikdy bát, že by kuličky přetekly!</DESCRIPTION>
     <URL>https://gel-gun.cz/products/kyblik-na-kulicky-pouze-na-objednani?variant=44639936119050</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/KYBLIK_2.jpg?v=1762700943</IMGURL>
     <PRICE_VAT>499.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>kyblmodry</PRODUCTNO>
     <ITEMGROUP_ID>8267165925642</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44639936151818</ITEM_ID>
-    <PRODUCTNAME>Kyblík na vodní gelové kuličky (Ammo tub)</PRODUCTNAME>
-    <PRODUCT>Kyblík na vodní gelové kuličky (Ammo tub)</PRODUCT>
+    <PRODUCTNAME>Kyblík na vodní gelové kuličky (Ammo tub) – Oranžová</PRODUCTNAME>
+    <PRODUCT>Kyblík na vodní gelové kuličky (Ammo tub) – Oranžová</PRODUCT>
     <DESCRIPTION>Už žádné hledání vhodných nádob u rodičů v kuchyni, s tímhle kyblíkem můžeš hydratovat a skladovat obrovské množství gelletek najednou, takže budeš vždy ready do akce a navíc se nemusíš už nikdy bát, že by kuličky přetekly!</DESCRIPTION>
     <URL>https://gel-gun.cz/products/kyblik-na-kulicky-pouze-na-objednani?variant=44639936151818</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/KYBLIK.jpg?v=1743408298</IMGURL>
     <PRICE_VAT>499.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>kybloranzovy</PRODUCTNO>
     <ITEMGROUP_ID>8267165925642</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Oranžová</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44645627265290</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - modrý</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - modrý</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Barevné gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy!</DESCRIPTION>
     <URL>https://gel-gun.cz/products/gelove-naboje-v-barelu?variant=44645627265290</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/8_a71f2797-3de4-4c85-9c25-717f4129d428.jpg?v=1765359276</IMGURL>
     <PRICE_VAT>449.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>barel50-m</PRODUCTNO>
     <ITEMGROUP_ID>8269023576330</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>50 000 ks - barel - modrý</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44645627298058</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - barevný MIX</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - barevný MIX</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Barevné gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy!</DESCRIPTION>
     <URL>https://gel-gun.cz/products/gelove-naboje-v-barelu?variant=44645627298058</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/barel_50000_barevnymix.jpg?v=1765359276</IMGURL>
     <PRICE_VAT>449.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>barel50</PRODUCTNO>
     <ITEMGROUP_ID>8269023576330</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>50 000 ks - barel - barevný MIX</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968907940106</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - modrá a bílá</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - modrá a bílá</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Barevné gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy!</DESCRIPTION>
     <URL>https://gel-gun.cz/products/gelove-naboje-v-barelu?variant=50968907940106</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/5_1a0f2eba-d880-404b-8ddf-cb92a36c06f1.jpg?v=1743374009</IMGURL>
     <PRICE_VAT>449.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>barel50-MB</PRODUCTNO>
     <ITEMGROUP_ID>8269023576330</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>50 000 ks - barel - modrá a bílá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44646339379466</ITEM_ID>
@@ -152,38 +272,78 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/7_459d522b-7d7c-4e4b-93a0-e62fa67275e8.jpg?v=1737824665</IMGURL>
     <PRICE_VAT>179.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>light10</PRODUCTNO>
     <ITEMGROUP_ID>8269299220746</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44646340296970</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů) – 10 000 ks</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů) – 10 000 ks</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Modré gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy! Při objednání 30 000 ks odesíláme 3 pytlíčky po 10 000 gelových kuliček.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/modre-naboje?variant=44646340296970</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/2_03e39096-bf8a-4460-a381-dcae7bd86050.jpg?v=1737823327</IMGURL>
     <PRICE_VAT>99.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>modre10</PRODUCTNO>
     <ITEMGROUP_ID>8269299417354</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>10 000 ks</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44646340329738</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů) – 30 000 ks</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů) – 30 000 ks</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Modré gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy! Při objednání 30 000 ks odesíláme 3 pytlíčky po 10 000 gelových kuliček.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/modre-naboje?variant=44646340329738</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/2_03e39096-bf8a-4460-a381-dcae7bd86050.jpg?v=1737823327</IMGURL>
     <PRICE_VAT>249.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>modre30</PRODUCTNO>
     <ITEMGROUP_ID>8269299417354</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>30 000 ks</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44723744473354</ITEM_ID>
@@ -194,10 +354,18 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/10.jpg?v=1743411456</IMGURL>
     <PRICE_VAT>129.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>hard10</PRODUCTNO>
     <ITEMGROUP_ID>8289529233674</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44775810171146</ITEM_ID>
@@ -208,11 +376,23 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/1_c115faef-e822-4699-99b4-53a633d45c80.jpg?v=1778334167</IMGURL>
     <PRICE_VAT>990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <EAN>0792649296127</EAN>
     <PRODUCTNO>M416RED</PRODUCTNO>
     <ITEMGROUP_ID>8302813905162</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červená</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44775885766922</ITEM_ID>
@@ -223,10 +403,22 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/1_115b2c06-313b-450e-85ca-fd89b26dd15b.jpg?v=1737849771</IMGURL>
     <PRICE_VAT>699.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>skdzelena</PRODUCTNO>
     <ITEMGROUP_ID>8302829830410</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>zelená</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44775915159818</ITEM_ID>
@@ -237,39 +429,83 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/AKM47_MODRA_9f96d2a8-f6ed-4496-9dfd-2862f9a3854a.jpg?v=1743501892</IMGURL>
     <PRICE_VAT>790.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <EAN>0792649296141</EAN>
     <PRODUCTNO>akm47modry</PRODUCTNO>
     <ITEMGROUP_ID>8302847328522</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44876374442250</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů) – 10 000 ks</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů) – 10 000 ks</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Oranžové gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy! Při objednání 30 000 ks odesíláme 3 pytlíčky po 10 000 gelových kuliček.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/gelove-kulicky-oranzove?variant=44876374442250</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/gellets_oranz_4.jpg?v=1737246829</IMGURL>
     <PRICE_VAT>99.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>oranzove10</PRODUCTNO>
     <ITEMGROUP_ID>8332531073290</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>10 000 ks</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>oranžová</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44876374475018</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů) – 30 000 ks</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů) – 30 000 ks</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Oranžové gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy! Při objednání 30 000 ks odesíláme 3 pytlíčky po 10 000 gelových kuliček.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/gelove-kulicky-oranzove?variant=44876374475018</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/gellets_oranz_4.jpg?v=1737246829</IMGURL>
     <PRICE_VAT>249.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>oranzove30</PRODUCTNO>
     <ITEMGROUP_ID>8332531073290</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>30 000 ks</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>oranžová</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44876381749514</ITEM_ID>
@@ -280,11 +516,23 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/GLOCK-1.jpg?v=1762700177</IMGURL>
     <PRICE_VAT>1090.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <EAN>0792649296165</EAN>
     <PRODUCTNO>glockcerveny</PRODUCTNO>
     <ITEMGROUP_ID>8332532252938</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červená</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>45561338200330</ITEM_ID>
@@ -295,11 +543,19 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/tank.jpg?v=1737246319</IMGURL>
     <PRICE_VAT>1090.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <EAN>0792649296196</EAN>
     <PRODUCTNO>tank_gg</PRODUCTNO>
     <ITEMGROUP_ID>8552114290954</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>45653841871114</ITEM_ID>
@@ -310,11 +566,19 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/GG_Square_STIT_3.jpg?v=1761499221</IMGURL>
     <PRICE_VAT>699.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <EAN>0792649296110</EAN>
     <PRODUCTNO>stit_gg</PRODUCTNO>
     <ITEMGROUP_ID>8584439398666</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>45665241137418</ITEM_ID>
@@ -325,11 +589,19 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/1.jpg?v=1761499221</IMGURL>
     <PRICE_VAT>349.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <EAN>0792649296158</EAN>
     <PRODUCTNO>ruka_gg</PRODUCTNO>
     <ITEMGROUP_ID>8588293144842</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968795840778</ITEM_ID>
@@ -340,10 +612,18 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/HK416_458b96e9-9416-40b1-b5a9-b912925fa2d5.jpg?v=1743377178</IMGURL>
     <PRICE_VAT>2590.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>HK416BK</PRODUCTNO>
     <ITEMGROUP_ID>10007872504074</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968834769162</ITEM_ID>
@@ -354,10 +634,22 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/M416_CERVENO-CERNA_d4aaa1d8-82f8-403a-946a-b6aff80786e0.jpg?v=1743506982</IMGURL>
     <PRICE_VAT>1149.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>M416CC</PRODUCTNO>
     <ITEMGROUP_ID>10007884300554</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červeno-černá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968857870602</ITEM_ID>
@@ -368,10 +660,22 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/P90_CERNA_55f583a6-f959-485b-8be2-e6c9923251c8.jpg?v=1743508918</IMGURL>
     <PRICE_VAT>990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>p90_bk</PRODUCTNO>
     <ITEMGROUP_ID>10007890166026</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968900108554</ITEM_ID>
@@ -382,10 +686,18 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/Terc_2_aeb94803-9324-49a9-a190-564d621ed077.jpg?v=1743376984</IMGURL>
     <PRICE_VAT>490.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>TERC-1</PRODUCTNO>
     <ITEMGROUP_ID>10007908090122</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968946671882</ITEM_ID>
@@ -396,10 +708,18 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/plastova_vec_na_kulicky.jpg?v=1762701023</IMGURL>
     <PRICE_VAT>49.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>BOTTLE</PRODUCTNO>
     <ITEMGROUP_ID>10007932600586</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50975108956426</ITEM_ID>
@@ -410,10 +730,18 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/vestanobackground.jpg?v=1761498445</IMGURL>
     <PRICE_VAT>490.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>VEST1</PRODUCTNO>
     <ITEMGROUP_ID>10009061163274</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50980305961226</ITEM_ID>
@@ -424,9 +752,17 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/M4_Tactical_bundle.jpg?v=1761498445</IMGURL>
     <PRICE_VAT>2149.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10009900056842</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>51592637153546</ITEM_ID>
@@ -437,10 +773,22 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/M416_CERNA_NOVA_bcf2fd17-261a-4c2c-b519-620136d2f837.jpg?v=1754149917</IMGURL>
     <PRICE_VAT>1149.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>M416C</PRODUCTNO>
     <ITEMGROUP_ID>10178749923594</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>51594245013770</ITEM_ID>
@@ -451,10 +799,22 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/naplnovackacerna_3.jpg?v=1761496655</IMGURL>
     <PRICE_VAT>79.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>BOTTLE2</PRODUCTNO>
     <ITEMGROUP_ID>10179162800394</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>51965007986954</ITEM_ID>
@@ -465,10 +825,22 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/GLOCKCERVENO-CERNY.jpg?v=1762700472</IMGURL>
     <PRICE_VAT>1349.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>glockcc</PRODUCTNO>
     <ITEMGROUP_ID>10277205475594</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červeno-černá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>51968383451402</ITEM_ID>
@@ -479,10 +851,22 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/M4_CERNA.jpg?v=1761498445</IMGURL>
     <PRICE_VAT>1190.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>M416T</PRODUCTNO>
     <ITEMGROUP_ID>10278309953802</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>51968968458506</ITEM_ID>
@@ -493,10 +877,18 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/AK47_IMITACE_DREVA.jpg?v=1760829880</IMGURL>
     <PRICE_VAT>1090.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>AKDREVO</PRODUCTNO>
     <ITEMGROUP_ID>10278410518794</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52176486629642</ITEM_ID>
@@ -507,94 +899,178 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/M416_MINI_ZELENA.jpg?v=1764105838</IMGURL>
     <PRICE_VAT>890.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>M416-MINI-Z</PRODUCTNO>
     <ITEMGROUP_ID>10320692510986</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>zelená</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52382470701322</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun Glock</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun Glock</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun Glock – Pouze baterie</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun Glock – Pouze baterie</PRODUCT>
     <DESCRIPTION>Čeká Tě dlouhá bitva? Pak nezapomeň na extra baterii! Díky ní nemusíš čekat na dobití, stačí vyměnit a akce může pokračovat. Dobíjecí baterie Li-Ion 7,4V, 280 mAh kompatibilní s modely GelGun Glock . Výdrž baterie: Až 1,5 hodiny nepřetržitého používání. Možnost objednat samostatně i s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely HK416 či M416.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-glocku?variant=52382470701322</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/BaterieGlock.jpg?v=1768151533</IMGURL>
     <PRICE_VAT>139.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>glock-b</PRODUCTNO>
     <ITEMGROUP_ID>10359943495946</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta</PARAM_NAME>
+      <VAL>Pouze baterie</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52381994483978</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun Glock</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun Glock</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun Glock – Set baterka a nabíječka</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun Glock – Set baterka a nabíječka</PRODUCT>
     <DESCRIPTION>Čeká Tě dlouhá bitva? Pak nezapomeň na extra baterii! Díky ní nemusíš čekat na dobití, stačí vyměnit a akce může pokračovat. Dobíjecí baterie Li-Ion 7,4V, 280 mAh kompatibilní s modely GelGun Glock . Výdrž baterie: Až 1,5 hodiny nepřetržitého používání. Možnost objednat samostatně i s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely HK416 či M416.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-glocku?variant=52381994483978</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/Baterie_a_nabijecka_Glock.jpg?v=1768151533</IMGURL>
     <PRICE_VAT>159.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>glock-bn</PRODUCTNO>
     <ITEMGROUP_ID>10359943495946</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta</PARAM_NAME>
+      <VAL>Set baterka a nabíječka</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52382485283082</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun HK416</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun HK416</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun HK416 – Pouze baterie</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun HK416 – Pouze baterie</PRODUCT>
     <DESCRIPTION>Dobíjecí baterie Li-Ion 7,4V, 1200 mAh kompatibilní s naším HK416 . Výdrž baterie: Až 1,5 hodiny intenzivní hry . Možnost objednat jen baterii, nebo celý set s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely M416 či Glock.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-hk416?variant=52382485283082</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/BaterieHK416.jpg?v=1768151650</IMGURL>
     <PRICE_VAT>199.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>hk416-b</PRODUCTNO>
     <ITEMGROUP_ID>10359944118538</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta</PARAM_NAME>
+      <VAL>Pouze baterie</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52381996646666</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun HK416</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun HK416</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun HK416 – Set baterie a nabíječka</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun HK416 – Set baterie a nabíječka</PRODUCT>
     <DESCRIPTION>Dobíjecí baterie Li-Ion 7,4V, 1200 mAh kompatibilní s naším HK416 . Výdrž baterie: Až 1,5 hodiny intenzivní hry . Možnost objednat jen baterii, nebo celý set s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely M416 či Glock.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-hk416?variant=52381996646666</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/Baterie_a_nabijecka_HK416.jpg?v=1768151664</IMGURL>
     <PRICE_VAT>229.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>hk416-bn</PRODUCTNO>
     <ITEMGROUP_ID>10359944118538</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta</PARAM_NAME>
+      <VAL>Set baterie a nabíječka</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52382457856266</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun M416</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun M416</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun M416 – Pouze baterie</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun M416 – Pouze baterie</PRODUCT>
     <DESCRIPTION>Čeká Tě dlouhá bitva? Pak nezapomeň na extra baterii! Díky ní nemusíš čekat na dobití, stačí vyměnit a akce může pokračovat. Dobíjecí baterie Li-Ion 7,4V, 500 mAh kompatibilní s modelem GelGun M416 ve všech barvách , P90 MINI a AKM47 . Výdrž baterie: Až 2 hodiny nepřetržitého používání. Možnost objednat jen baterii, nebo celý set s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely HK416 či Glock.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-m416?variant=52382457856266</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/BaterieM416.jpg?v=1768151735</IMGURL>
     <PRICE_VAT>139.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>M416-B</PRODUCTNO>
     <ITEMGROUP_ID>10359945068810</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta produktu</PARAM_NAME>
+      <VAL>Pouze baterie</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52381999431946</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun M416</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun M416</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun M416 – Set baterie a nabíječka</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun M416 – Set baterie a nabíječka</PRODUCT>
     <DESCRIPTION>Čeká Tě dlouhá bitva? Pak nezapomeň na extra baterii! Díky ní nemusíš čekat na dobití, stačí vyměnit a akce může pokračovat. Dobíjecí baterie Li-Ion 7,4V, 500 mAh kompatibilní s modelem GelGun M416 ve všech barvách , P90 MINI a AKM47 . Výdrž baterie: Až 2 hodiny nepřetržitého používání. Možnost objednat jen baterii, nebo celý set s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely HK416 či Glock.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-m416?variant=52381999431946</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/Baterie_a_nabijecka_M416.jpg?v=1768151751</IMGURL>
     <PRICE_VAT>159.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>M416-BN</PRODUCTNO>
     <ITEMGROUP_ID>10359945068810</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta produktu</PARAM_NAME>
+      <VAL>Set baterie a nabíječka</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52382000873738</ITEM_ID>
@@ -605,10 +1081,18 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/zasobniknovy4.jpg?v=1768151898</IMGURL>
     <PRICE_VAT>149.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>m416-drum</PRODUCTNO>
     <ITEMGROUP_ID>10359945691402</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52387616194826</ITEM_ID>
@@ -619,10 +1103,18 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/Zasobnik_HK416.jpg?v=1768253367</IMGURL>
     <PRICE_VAT>249.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>hk416-m</PRODUCTNO>
     <ITEMGROUP_ID>10361779093770</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52788441547018</ITEM_ID>
@@ -633,10 +1125,18 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/MP5-product-pic-1.jpg?v=1774823421</IMGURL>
     <PRICE_VAT>1590.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>mp5</PRODUCTNO>
     <ITEMGROUP_ID>10460655583498</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52793446629642</ITEM_ID>
@@ -647,10 +1147,18 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/desert_eagle_product_pic_1.jpg?v=1774909365</IMGURL>
     <PRICE_VAT>1149.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>deagle</PRODUCTNO>
     <ITEMGROUP_ID>10461235249418</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52809982771466</ITEM_ID>
@@ -661,10 +1169,22 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/MP5_mini_modra_product_picture_1.jpg?v=1775171086</IMGURL>
     <PRICE_VAT>490.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>mp5mini</PRODUCTNO>
     <ITEMGROUP_ID>10463735906570</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52809983099146</ITEM_ID>
@@ -675,9 +1195,21 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/M416_mini_piskova_product_picture_1.jpg?v=1775171094</IMGURL>
     <PRICE_VAT>490.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10463735972106</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>písková</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52809983328522</ITEM_ID>
@@ -688,52 +1220,96 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/Glock_Camo_MAIN_PRODUCT_PIC_2434a181-51db-4734-b966-d0581522652d.jpg?v=1782857756</IMGURL>
     <PRICE_VAT>1090.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>glock-blowback</PRODUCTNO>
     <ITEMGROUP_ID>10463736004874</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53216530497802</ITEM_ID>
-    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče</PRODUCTNAME>
-    <PRODUCT>GelGun Imitace Taktického Tlumiče</PRODUCT>
+    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče – Černá</PRODUCTNAME>
+    <PRODUCT>GelGun Imitace Taktického Tlumiče – Černá</PRODUCT>
     <DESCRIPTION>Unikátní 3D tištěná imitace taktického tlumiče — navržená a vyráběná přímo v dílně GelGun exkluzivně pro naše blastery. Nic podobného zatím na trhu nenajdeš. Dej své zbrani na gelové kuličky drsnější, taktičtější vzhled během pár vteřin. Originální design GelGun s charakteristickým hexagonálním (honeycomb) vzorem a logem GG. Kompatibilní s M416 (červená, červeno-černá i černá verze) a HK416 — rovnou z krabičky. Bezzávitové nasazení : zarovnej značku, zasuň a lehce pootoč. Drží pevně, sundáš za vteřinu. K dispozici ve třech barvách : černá, červená a modrá. Lehký, odolný 3D tisk — vyrobeno v ČR. Jak se nasazuje? Imitace tlumiče se připevňuje jednoduchou bezzávitovou kombinací „zasuň a pootoč". Stačí zarovnat značku na tlumiči s výřezem na vnější hlavni, zatlačit a lehce pootočit — tlumič zůstane bezpečně na svém místě. Glock — již brzy! Na podpoře pro pistoli Glock už pracujeme. 3D modely máme hotové, dolaďujeme tisk a povrch materiálu. Zatím je tlumič určen pro M416 a HK416. Pozor: tato imitace tlumiče (stejně jako reálné tlumiče) neobsahuje žádnou pěnu ani aktivní tlumící prvek — je čistě vizuální doplněk a střelbu neztišuje.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/imitace-taktickeho-tlumice?variant=53216530497802</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/GG-Tlumice-Main-Cerna.jpg?v=1781560031</IMGURL>
     <PRICE_VAT>119.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>GG-TLUMIC-1</PRODUCTNO>
     <ITEMGROUP_ID>10541957021962</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Černá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53216530530570</ITEM_ID>
-    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče</PRODUCTNAME>
-    <PRODUCT>GelGun Imitace Taktického Tlumiče</PRODUCT>
+    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče – Červená</PRODUCTNAME>
+    <PRODUCT>GelGun Imitace Taktického Tlumiče – Červená</PRODUCT>
     <DESCRIPTION>Unikátní 3D tištěná imitace taktického tlumiče — navržená a vyráběná přímo v dílně GelGun exkluzivně pro naše blastery. Nic podobného zatím na trhu nenajdeš. Dej své zbrani na gelové kuličky drsnější, taktičtější vzhled během pár vteřin. Originální design GelGun s charakteristickým hexagonálním (honeycomb) vzorem a logem GG. Kompatibilní s M416 (červená, červeno-černá i černá verze) a HK416 — rovnou z krabičky. Bezzávitové nasazení : zarovnej značku, zasuň a lehce pootoč. Drží pevně, sundáš za vteřinu. K dispozici ve třech barvách : černá, červená a modrá. Lehký, odolný 3D tisk — vyrobeno v ČR. Jak se nasazuje? Imitace tlumiče se připevňuje jednoduchou bezzávitovou kombinací „zasuň a pootoč". Stačí zarovnat značku na tlumiči s výřezem na vnější hlavni, zatlačit a lehce pootočit — tlumič zůstane bezpečně na svém místě. Glock — již brzy! Na podpoře pro pistoli Glock už pracujeme. 3D modely máme hotové, dolaďujeme tisk a povrch materiálu. Zatím je tlumič určen pro M416 a HK416. Pozor: tato imitace tlumiče (stejně jako reálné tlumiče) neobsahuje žádnou pěnu ani aktivní tlumící prvek — je čistě vizuální doplněk a střelbu neztišuje.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/imitace-taktickeho-tlumice?variant=53216530530570</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/GG-Tlumice-Main-Cervena.jpg?v=1781560034</IMGURL>
     <PRICE_VAT>119.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>GG-TLUMIC-2</PRODUCTNO>
     <ITEMGROUP_ID>10541957021962</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Červená</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53216530563338</ITEM_ID>
-    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče</PRODUCTNAME>
-    <PRODUCT>GelGun Imitace Taktického Tlumiče</PRODUCT>
+    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče – Modrá</PRODUCTNAME>
+    <PRODUCT>GelGun Imitace Taktického Tlumiče – Modrá</PRODUCT>
     <DESCRIPTION>Unikátní 3D tištěná imitace taktického tlumiče — navržená a vyráběná přímo v dílně GelGun exkluzivně pro naše blastery. Nic podobného zatím na trhu nenajdeš. Dej své zbrani na gelové kuličky drsnější, taktičtější vzhled během pár vteřin. Originální design GelGun s charakteristickým hexagonálním (honeycomb) vzorem a logem GG. Kompatibilní s M416 (červená, červeno-černá i černá verze) a HK416 — rovnou z krabičky. Bezzávitové nasazení : zarovnej značku, zasuň a lehce pootoč. Drží pevně, sundáš za vteřinu. K dispozici ve třech barvách : černá, červená a modrá. Lehký, odolný 3D tisk — vyrobeno v ČR. Jak se nasazuje? Imitace tlumiče se připevňuje jednoduchou bezzávitovou kombinací „zasuň a pootoč". Stačí zarovnat značku na tlumiči s výřezem na vnější hlavni, zatlačit a lehce pootočit — tlumič zůstane bezpečně na svém místě. Glock — již brzy! Na podpoře pro pistoli Glock už pracujeme. 3D modely máme hotové, dolaďujeme tisk a povrch materiálu. Zatím je tlumič určen pro M416 a HK416. Pozor: tato imitace tlumiče (stejně jako reálné tlumiče) neobsahuje žádnou pěnu ani aktivní tlumící prvek — je čistě vizuální doplněk a střelbu neztišuje.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/imitace-taktickeho-tlumice?variant=53216530563338</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/GG-Tlumice-Main-modra.jpg?v=1781560037</IMGURL>
     <PRICE_VAT>119.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>GG-TLUMIC-3</PRODUCTNO>
     <ITEMGROUP_ID>10541957021962</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53243499348234</ITEM_ID>
@@ -744,9 +1320,21 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/8_a71f2797-3de4-4c85-9c25-717f4129d428.jpg?v=1765359276</IMGURL>
     <PRICE_VAT>189.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10548382531850</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53282872525066</ITEM_ID>
@@ -757,10 +1345,22 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/M416_modra_MAIN_PRODUCT_PIC_0d2167ef-ea72-45a7-ba5b-536e43731089.jpg?v=1782857157</IMGURL>
     <PRICE_VAT>1149.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <PRODUCTNO>M416BLUE</PRODUCTNO>
     <ITEMGROUP_ID>10556835037450</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53353857679626</ITEM_ID>
@@ -771,9 +1371,17 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/GLOCK-set-pro-dva-modre.jpg?v=1783874577</IMGURL>
     <PRICE_VAT>2990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565449023754</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354134864138</ITEM_ID>
@@ -784,9 +1392,21 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/MODRA-set-main.jpg?v=1783876680</IMGURL>
     <PRICE_VAT>1990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565466030346</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354136305930</ITEM_ID>
@@ -797,9 +1417,21 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/CERVENA-set-main.jpg?v=1783876703</IMGURL>
     <PRICE_VAT>1990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565466358026</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červená</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354149970186</ITEM_ID>
@@ -810,9 +1442,21 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/CERNA-set-main.jpg?v=1783876885</IMGURL>
     <PRICE_VAT>1990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565469634826</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406412554</ITEM_ID>
@@ -823,9 +1467,21 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/red-black-main.jpg?v=1783878373</IMGURL>
     <PRICE_VAT>1990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484740874</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červeno-černá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406445322</ITEM_ID>
@@ -836,9 +1492,21 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/10565484773642-main.jpg?v=1783890882</IMGURL>
     <PRICE_VAT>1949.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484773642</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406478090</ITEM_ID>
@@ -849,9 +1517,21 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/glock-cerveny-main.jpg?v=1783878398</IMGURL>
     <PRICE_VAT>1990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484806410</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červená</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406543626</ITEM_ID>
@@ -862,9 +1542,17 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/hk416-main.jpg?v=1783878410</IMGURL>
     <PRICE_VAT>3149.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484871946</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406576394</ITEM_ID>
@@ -875,9 +1563,21 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/p90-modra-main.jpg?v=1783878516</IMGURL>
     <PRICE_VAT>1690.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484904714</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406609162</ITEM_ID>
@@ -888,9 +1588,21 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/p90-cerna-main.jpg?v=1783878528</IMGURL>
     <PRICE_VAT>1690.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484937482</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406641930</ITEM_ID>
@@ -901,9 +1613,21 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/m416-cervena-pro-dva-main.jpg?v=1787172877</IMGURL>
     <PRICE_VAT>2349.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484970250</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červená</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406674698</ITEM_ID>
@@ -914,8 +1638,16 @@
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/superhero-main.jpg?v=1783878581</IMGURL>
     <PRICE_VAT>1449.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565485003018</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+    </DELIVERY>
   </SHOPITEM>
 </SHOP>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SHOP>
+<SHOP xmlns="http://www.zbozi.cz/ns/offer/1.0">
   <SHOPITEM>
     <ITEM_ID>44550399426826</ITEM_ID>
     <PRODUCTNAME>M416 MODRÁ MINI pistole na vodní gelové kuličky</PRODUCTNAME>
@@ -14,6 +14,10 @@
     <PRODUCTNO>M416MODRA</PRODUCTNO>
     <ITEMGROUP_ID>8238263566602</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44597142356234</ITEM_ID>
@@ -29,6 +33,10 @@
     <PRODUCTNO>glockmodry</PRODUCTNO>
     <ITEMGROUP_ID>8240132587786</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44626479874314</ITEM_ID>
@@ -44,11 +52,15 @@
     <PRODUCTNO>p90_blue</PRODUCTNO>
     <ITEMGROUP_ID>8263330431242</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44639930253578</ITEM_ID>
-    <PRODUCTNAME>Ochranná maska proti vodním gelovým kuličkám</PRODUCTNAME>
-    <PRODUCT>Ochranná maska proti vodním gelovým kuličkám</PRODUCT>
+    <PRODUCTNAME>Ochranná maska proti vodním gelovým kuličkám – Modrá</PRODUCTNAME>
+    <PRODUCT>Ochranná maska proti vodním gelovým kuličkám – Modrá</PRODUCT>
     <DESCRIPTION>Opatrnosti není nikdy dost, a tahle maska bezpečně ochrání celý tvůj obličej od zásahů gelovými kuličkami. Masku máme k dostání ve dvou barvách - modré a červené, stačí si jen vybrat, nasadit a jít do akce! Očekávaná expedice objednávek s touto maskou je 18. 12. 2025, s garancí doručení do Vánoc.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/maska-na-oblicej-na-objednavku?variant=44639930253578</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/MASK_NOW_BLUE.jpg?v=1743408470</IMGURL>
@@ -58,11 +70,15 @@
     <PRODUCTNO>maskazaklad</PRODUCTNO>
     <ITEMGROUP_ID>8267163336970</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44639930319114</ITEM_ID>
-    <PRODUCTNAME>Ochranná maska proti vodním gelovým kuličkám</PRODUCTNAME>
-    <PRODUCT>Ochranná maska proti vodním gelovým kuličkám</PRODUCT>
+    <PRODUCTNAME>Ochranná maska proti vodním gelovým kuličkám – Červená</PRODUCTNAME>
+    <PRODUCT>Ochranná maska proti vodním gelovým kuličkám – Červená</PRODUCT>
     <DESCRIPTION>Opatrnosti není nikdy dost, a tahle maska bezpečně ochrání celý tvůj obličej od zásahů gelovými kuličkami. Masku máme k dostání ve dvou barvách - modré a červené, stačí si jen vybrat, nasadit a jít do akce! Očekávaná expedice objednávek s touto maskou je 18. 12. 2025, s garancí doručení do Vánoc.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/maska-na-oblicej-na-objednavku?variant=44639930319114</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/MASKA_NOW.jpg?v=1742672335</IMGURL>
@@ -72,11 +88,15 @@
     <PRODUCTNO>maskaprofi</PRODUCTNO>
     <ITEMGROUP_ID>8267163336970</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Červená</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44639936119050</ITEM_ID>
-    <PRODUCTNAME>Kyblík na vodní gelové kuličky (Ammo tub)</PRODUCTNAME>
-    <PRODUCT>Kyblík na vodní gelové kuličky (Ammo tub)</PRODUCT>
+    <PRODUCTNAME>Kyblík na vodní gelové kuličky (Ammo tub) – Modrá</PRODUCTNAME>
+    <PRODUCT>Kyblík na vodní gelové kuličky (Ammo tub) – Modrá</PRODUCT>
     <DESCRIPTION>Už žádné hledání vhodných nádob u rodičů v kuchyni, s tímhle kyblíkem můžeš hydratovat a skladovat obrovské množství gelletek najednou, takže budeš vždy ready do akce a navíc se nemusíš už nikdy bát, že by kuličky přetekly!</DESCRIPTION>
     <URL>https://gel-gun.cz/products/kyblik-na-kulicky-pouze-na-objednani?variant=44639936119050</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/KYBLIK_2.jpg?v=1762700943</IMGURL>
@@ -86,11 +106,15 @@
     <PRODUCTNO>kyblmodry</PRODUCTNO>
     <ITEMGROUP_ID>8267165925642</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44639936151818</ITEM_ID>
-    <PRODUCTNAME>Kyblík na vodní gelové kuličky (Ammo tub)</PRODUCTNAME>
-    <PRODUCT>Kyblík na vodní gelové kuličky (Ammo tub)</PRODUCT>
+    <PRODUCTNAME>Kyblík na vodní gelové kuličky (Ammo tub) – Oranžová</PRODUCTNAME>
+    <PRODUCT>Kyblík na vodní gelové kuličky (Ammo tub) – Oranžová</PRODUCT>
     <DESCRIPTION>Už žádné hledání vhodných nádob u rodičů v kuchyni, s tímhle kyblíkem můžeš hydratovat a skladovat obrovské množství gelletek najednou, takže budeš vždy ready do akce a navíc se nemusíš už nikdy bát, že by kuličky přetekly!</DESCRIPTION>
     <URL>https://gel-gun.cz/products/kyblik-na-kulicky-pouze-na-objednani?variant=44639936151818</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/KYBLIK.jpg?v=1743408298</IMGURL>
@@ -100,11 +124,15 @@
     <PRODUCTNO>kybloranzovy</PRODUCTNO>
     <ITEMGROUP_ID>8267165925642</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Oranžová</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44645627265290</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - modrý</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - modrý</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Barevné gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy!</DESCRIPTION>
     <URL>https://gel-gun.cz/products/gelove-naboje-v-barelu?variant=44645627265290</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/8_a71f2797-3de4-4c85-9c25-717f4129d428.jpg?v=1765359276</IMGURL>
@@ -114,11 +142,15 @@
     <PRODUCTNO>barel50-m</PRODUCTNO>
     <ITEMGROUP_ID>8269023576330</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>50 000 ks - barel - modrý</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44645627298058</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - barevný MIX</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - barevný MIX</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Barevné gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy!</DESCRIPTION>
     <URL>https://gel-gun.cz/products/gelove-naboje-v-barelu?variant=44645627298058</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/barel_50000_barevnymix.jpg?v=1765359276</IMGURL>
@@ -128,11 +160,15 @@
     <PRODUCTNO>barel50</PRODUCTNO>
     <ITEMGROUP_ID>8269023576330</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>50 000 ks - barel - barevný MIX</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968907940106</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - modrá a bílá</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - VELKÝ KANYSTR (50 000 kusů) – 50 000 ks - barel - modrá a bílá</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Barevné gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy!</DESCRIPTION>
     <URL>https://gel-gun.cz/products/gelove-naboje-v-barelu?variant=50968907940106</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/5_1a0f2eba-d880-404b-8ddf-cb92a36c06f1.jpg?v=1743374009</IMGURL>
@@ -142,6 +178,10 @@
     <PRODUCTNO>barel50-MB</PRODUCTNO>
     <ITEMGROUP_ID>8269023576330</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>50 000 ks - barel - modrá a bílá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44646339379466</ITEM_ID>
@@ -159,8 +199,8 @@
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44646340296970</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů) – 10 000 ks</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů) – 10 000 ks</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Modré gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy! Při objednání 30 000 ks odesíláme 3 pytlíčky po 10 000 gelových kuliček.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/modre-naboje?variant=44646340296970</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/2_03e39096-bf8a-4460-a381-dcae7bd86050.jpg?v=1737823327</IMGURL>
@@ -170,11 +210,19 @@
     <PRODUCTNO>modre10</PRODUCTNO>
     <ITEMGROUP_ID>8269299417354</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>10 000 ks</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44646340329738</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů) – 30 000 ks</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Modré (od 10 000 kusů) – 30 000 ks</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Modré gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy! Při objednání 30 000 ks odesíláme 3 pytlíčky po 10 000 gelových kuliček.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/modre-naboje?variant=44646340329738</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/2_03e39096-bf8a-4460-a381-dcae7bd86050.jpg?v=1737823327</IMGURL>
@@ -184,6 +232,14 @@
     <PRODUCTNO>modre30</PRODUCTNO>
     <ITEMGROUP_ID>8269299417354</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>30 000 ks</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44723744473354</ITEM_ID>
@@ -213,6 +269,10 @@
     <PRODUCTNO>M416RED</PRODUCTNO>
     <ITEMGROUP_ID>8302813905162</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červená</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44775885766922</ITEM_ID>
@@ -227,6 +287,10 @@
     <PRODUCTNO>skdzelena</PRODUCTNO>
     <ITEMGROUP_ID>8302829830410</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>zelená</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44775915159818</ITEM_ID>
@@ -242,11 +306,15 @@
     <PRODUCTNO>akm47modry</PRODUCTNO>
     <ITEMGROUP_ID>8302847328522</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44876374442250</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů) – 10 000 ks</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů) – 10 000 ks</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Oranžové gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy! Při objednání 30 000 ks odesíláme 3 pytlíčky po 10 000 gelových kuliček.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/gelove-kulicky-oranzove?variant=44876374442250</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/gellets_oranz_4.jpg?v=1737246829</IMGURL>
@@ -256,11 +324,19 @@
     <PRODUCTNO>oranzove10</PRODUCTNO>
     <ITEMGROUP_ID>8332531073290</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>10 000 ks</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>oranžová</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44876374475018</ITEM_ID>
-    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů)</PRODUCTNAME>
-    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů)</PRODUCT>
+    <PRODUCTNAME>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů) – 30 000 ks</PRODUCTNAME>
+    <PRODUCT>Vodní gelové kuličky (7-8 mm) - Oranžové (od 10 000 kusů) – 30 000 ks</PRODUCT>
     <DESCRIPTION>Nábojů není nikdy dost! Oranžové gelové kuličky na vodní bázi, které jsou ze zcela přírodního, netoxického materiálu, takže je můžeš střílet úplně kdekoli. Strávíš tak méně času úklidem a více času zábavou! Zapomeň na airsoft, paintball a podobné alternativy, střílení s gelovými kuličkami je budoucnost zábavy! Při objednání 30 000 ks odesíláme 3 pytlíčky po 10 000 gelových kuliček.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/gelove-kulicky-oranzove?variant=44876374475018</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/gellets_oranz_4.jpg?v=1737246829</IMGURL>
@@ -270,6 +346,14 @@
     <PRODUCTNO>oranzove30</PRODUCTNO>
     <ITEMGROUP_ID>8332531073290</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Velikost</PARAM_NAME>
+      <VAL>30 000 ks</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>oranžová</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>44876381749514</ITEM_ID>
@@ -285,6 +369,10 @@
     <PRODUCTNO>glockcerveny</PRODUCTNO>
     <ITEMGROUP_ID>8332532252938</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červená</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>45561338200330</ITEM_ID>
@@ -358,6 +446,10 @@
     <PRODUCTNO>M416CC</PRODUCTNO>
     <ITEMGROUP_ID>10007884300554</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červeno-černá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968857870602</ITEM_ID>
@@ -372,6 +464,10 @@
     <PRODUCTNO>p90_bk</PRODUCTNO>
     <ITEMGROUP_ID>10007890166026</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>50968900108554</ITEM_ID>
@@ -441,6 +537,10 @@
     <PRODUCTNO>M416C</PRODUCTNO>
     <ITEMGROUP_ID>10178749923594</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>51594245013770</ITEM_ID>
@@ -455,6 +555,10 @@
     <PRODUCTNO>BOTTLE2</PRODUCTNO>
     <ITEMGROUP_ID>10179162800394</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>51965007986954</ITEM_ID>
@@ -469,6 +573,10 @@
     <PRODUCTNO>glockcc</PRODUCTNO>
     <ITEMGROUP_ID>10277205475594</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červeno-černá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>51968383451402</ITEM_ID>
@@ -483,6 +591,10 @@
     <PRODUCTNO>M416T</PRODUCTNO>
     <ITEMGROUP_ID>10278309953802</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>51968968458506</ITEM_ID>
@@ -511,11 +623,15 @@
     <PRODUCTNO>M416-MINI-Z</PRODUCTNO>
     <ITEMGROUP_ID>10320692510986</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>zelená</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52382470701322</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun Glock</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun Glock</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun Glock – Pouze baterie</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun Glock – Pouze baterie</PRODUCT>
     <DESCRIPTION>Čeká Tě dlouhá bitva? Pak nezapomeň na extra baterii! Díky ní nemusíš čekat na dobití, stačí vyměnit a akce může pokračovat. Dobíjecí baterie Li-Ion 7,4V, 280 mAh kompatibilní s modely GelGun Glock . Výdrž baterie: Až 1,5 hodiny nepřetržitého používání. Možnost objednat samostatně i s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely HK416 či M416.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-glocku?variant=52382470701322</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/BaterieGlock.jpg?v=1768151533</IMGURL>
@@ -525,11 +641,15 @@
     <PRODUCTNO>glock-b</PRODUCTNO>
     <ITEMGROUP_ID>10359943495946</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta</PARAM_NAME>
+      <VAL>Pouze baterie</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52381994483978</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun Glock</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun Glock</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun Glock – Set baterka a nabíječka</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun Glock – Set baterka a nabíječka</PRODUCT>
     <DESCRIPTION>Čeká Tě dlouhá bitva? Pak nezapomeň na extra baterii! Díky ní nemusíš čekat na dobití, stačí vyměnit a akce může pokračovat. Dobíjecí baterie Li-Ion 7,4V, 280 mAh kompatibilní s modely GelGun Glock . Výdrž baterie: Až 1,5 hodiny nepřetržitého používání. Možnost objednat samostatně i s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely HK416 či M416.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-glocku?variant=52381994483978</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/Baterie_a_nabijecka_Glock.jpg?v=1768151533</IMGURL>
@@ -539,11 +659,15 @@
     <PRODUCTNO>glock-bn</PRODUCTNO>
     <ITEMGROUP_ID>10359943495946</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta</PARAM_NAME>
+      <VAL>Set baterka a nabíječka</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52382485283082</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun HK416</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun HK416</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun HK416 – Pouze baterie</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun HK416 – Pouze baterie</PRODUCT>
     <DESCRIPTION>Dobíjecí baterie Li-Ion 7,4V, 1200 mAh kompatibilní s naším HK416 . Výdrž baterie: Až 1,5 hodiny intenzivní hry . Možnost objednat jen baterii, nebo celý set s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely M416 či Glock.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-hk416?variant=52382485283082</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/BaterieHK416.jpg?v=1768151650</IMGURL>
@@ -553,11 +677,15 @@
     <PRODUCTNO>hk416-b</PRODUCTNO>
     <ITEMGROUP_ID>10359944118538</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta</PARAM_NAME>
+      <VAL>Pouze baterie</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52381996646666</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun HK416</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun HK416</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun HK416 – Set baterie a nabíječka</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun HK416 – Set baterie a nabíječka</PRODUCT>
     <DESCRIPTION>Dobíjecí baterie Li-Ion 7,4V, 1200 mAh kompatibilní s naším HK416 . Výdrž baterie: Až 1,5 hodiny intenzivní hry . Možnost objednat jen baterii, nebo celý set s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely M416 či Glock.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-hk416?variant=52381996646666</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/Baterie_a_nabijecka_HK416.jpg?v=1768151664</IMGURL>
@@ -567,11 +695,15 @@
     <PRODUCTNO>hk416-bn</PRODUCTNO>
     <ITEMGROUP_ID>10359944118538</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta</PARAM_NAME>
+      <VAL>Set baterie a nabíječka</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52382457856266</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun M416</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun M416</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun M416 – Pouze baterie</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun M416 – Pouze baterie</PRODUCT>
     <DESCRIPTION>Čeká Tě dlouhá bitva? Pak nezapomeň na extra baterii! Díky ní nemusíš čekat na dobití, stačí vyměnit a akce může pokračovat. Dobíjecí baterie Li-Ion 7,4V, 500 mAh kompatibilní s modelem GelGun M416 ve všech barvách , P90 MINI a AKM47 . Výdrž baterie: Až 2 hodiny nepřetržitého používání. Možnost objednat jen baterii, nebo celý set s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely HK416 či Glock.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-m416?variant=52382457856266</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/BaterieM416.jpg?v=1768151735</IMGURL>
@@ -581,11 +713,15 @@
     <PRODUCTNO>M416-B</PRODUCTNO>
     <ITEMGROUP_ID>10359945068810</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta produktu</PARAM_NAME>
+      <VAL>Pouze baterie</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52381999431946</ITEM_ID>
-    <PRODUCTNAME>Náhradní baterie pro Gel Gun M416</PRODUCTNAME>
-    <PRODUCT>Náhradní baterie pro Gel Gun M416</PRODUCT>
+    <PRODUCTNAME>Náhradní baterie pro Gel Gun M416 – Set baterie a nabíječka</PRODUCTNAME>
+    <PRODUCT>Náhradní baterie pro Gel Gun M416 – Set baterie a nabíječka</PRODUCT>
     <DESCRIPTION>Čeká Tě dlouhá bitva? Pak nezapomeň na extra baterii! Díky ní nemusíš čekat na dobití, stačí vyměnit a akce může pokračovat. Dobíjecí baterie Li-Ion 7,4V, 500 mAh kompatibilní s modelem GelGun M416 ve všech barvách , P90 MINI a AKM47 . Výdrž baterie: Až 2 hodiny nepřetržitého používání. Možnost objednat jen baterii, nebo celý set s nabíječkou. Jednoduché dobíjení baterie pomocí USB nabíječky. Lze dobíjet i z běžné powerbanky. Záruka a podpora v ČR. Barva baterie se může oproti fotografii lišit. Není kompatibilní s modely HK416 či Glock.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/baterie-do-m416?variant=52381999431946</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/Baterie_a_nabijecka_M416.jpg?v=1768151751</IMGURL>
@@ -595,6 +731,10 @@
     <PRODUCTNO>M416-BN</PRODUCTNO>
     <ITEMGROUP_ID>10359945068810</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Varianta produktu</PARAM_NAME>
+      <VAL>Set baterie a nabíječka</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52382000873738</ITEM_ID>
@@ -665,6 +805,10 @@
     <PRODUCTNO>mp5mini</PRODUCTNO>
     <ITEMGROUP_ID>10463735906570</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52809983099146</ITEM_ID>
@@ -678,6 +822,10 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10463735972106</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>písková</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>52809983328522</ITEM_ID>
@@ -695,8 +843,8 @@
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53216530497802</ITEM_ID>
-    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče</PRODUCTNAME>
-    <PRODUCT>GelGun Imitace Taktického Tlumiče</PRODUCT>
+    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče – Černá</PRODUCTNAME>
+    <PRODUCT>GelGun Imitace Taktického Tlumiče – Černá</PRODUCT>
     <DESCRIPTION>Unikátní 3D tištěná imitace taktického tlumiče — navržená a vyráběná přímo v dílně GelGun exkluzivně pro naše blastery. Nic podobného zatím na trhu nenajdeš. Dej své zbrani na gelové kuličky drsnější, taktičtější vzhled během pár vteřin. Originální design GelGun s charakteristickým hexagonálním (honeycomb) vzorem a logem GG. Kompatibilní s M416 (červená, červeno-černá i černá verze) a HK416 — rovnou z krabičky. Bezzávitové nasazení : zarovnej značku, zasuň a lehce pootoč. Drží pevně, sundáš za vteřinu. K dispozici ve třech barvách : černá, červená a modrá. Lehký, odolný 3D tisk — vyrobeno v ČR. Jak se nasazuje? Imitace tlumiče se připevňuje jednoduchou bezzávitovou kombinací „zasuň a pootoč". Stačí zarovnat značku na tlumiči s výřezem na vnější hlavni, zatlačit a lehce pootočit — tlumič zůstane bezpečně na svém místě. Glock — již brzy! Na podpoře pro pistoli Glock už pracujeme. 3D modely máme hotové, dolaďujeme tisk a povrch materiálu. Zatím je tlumič určen pro M416 a HK416. Pozor: tato imitace tlumiče (stejně jako reálné tlumiče) neobsahuje žádnou pěnu ani aktivní tlumící prvek — je čistě vizuální doplněk a střelbu neztišuje.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/imitace-taktickeho-tlumice?variant=53216530497802</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/GG-Tlumice-Main-Cerna.jpg?v=1781560031</IMGURL>
@@ -706,11 +854,15 @@
     <PRODUCTNO>GG-TLUMIC-1</PRODUCTNO>
     <ITEMGROUP_ID>10541957021962</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Černá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53216530530570</ITEM_ID>
-    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče</PRODUCTNAME>
-    <PRODUCT>GelGun Imitace Taktického Tlumiče</PRODUCT>
+    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče – Červená</PRODUCTNAME>
+    <PRODUCT>GelGun Imitace Taktického Tlumiče – Červená</PRODUCT>
     <DESCRIPTION>Unikátní 3D tištěná imitace taktického tlumiče — navržená a vyráběná přímo v dílně GelGun exkluzivně pro naše blastery. Nic podobného zatím na trhu nenajdeš. Dej své zbrani na gelové kuličky drsnější, taktičtější vzhled během pár vteřin. Originální design GelGun s charakteristickým hexagonálním (honeycomb) vzorem a logem GG. Kompatibilní s M416 (červená, červeno-černá i černá verze) a HK416 — rovnou z krabičky. Bezzávitové nasazení : zarovnej značku, zasuň a lehce pootoč. Drží pevně, sundáš za vteřinu. K dispozici ve třech barvách : černá, červená a modrá. Lehký, odolný 3D tisk — vyrobeno v ČR. Jak se nasazuje? Imitace tlumiče se připevňuje jednoduchou bezzávitovou kombinací „zasuň a pootoč". Stačí zarovnat značku na tlumiči s výřezem na vnější hlavni, zatlačit a lehce pootočit — tlumič zůstane bezpečně na svém místě. Glock — již brzy! Na podpoře pro pistoli Glock už pracujeme. 3D modely máme hotové, dolaďujeme tisk a povrch materiálu. Zatím je tlumič určen pro M416 a HK416. Pozor: tato imitace tlumiče (stejně jako reálné tlumiče) neobsahuje žádnou pěnu ani aktivní tlumící prvek — je čistě vizuální doplněk a střelbu neztišuje.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/imitace-taktickeho-tlumice?variant=53216530530570</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/GG-Tlumice-Main-Cervena.jpg?v=1781560034</IMGURL>
@@ -720,11 +872,15 @@
     <PRODUCTNO>GG-TLUMIC-2</PRODUCTNO>
     <ITEMGROUP_ID>10541957021962</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Červená</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53216530563338</ITEM_ID>
-    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče</PRODUCTNAME>
-    <PRODUCT>GelGun Imitace Taktického Tlumiče</PRODUCT>
+    <PRODUCTNAME>GelGun Imitace Taktického Tlumiče – Modrá</PRODUCTNAME>
+    <PRODUCT>GelGun Imitace Taktického Tlumiče – Modrá</PRODUCT>
     <DESCRIPTION>Unikátní 3D tištěná imitace taktického tlumiče — navržená a vyráběná přímo v dílně GelGun exkluzivně pro naše blastery. Nic podobného zatím na trhu nenajdeš. Dej své zbrani na gelové kuličky drsnější, taktičtější vzhled během pár vteřin. Originální design GelGun s charakteristickým hexagonálním (honeycomb) vzorem a logem GG. Kompatibilní s M416 (červená, červeno-černá i černá verze) a HK416 — rovnou z krabičky. Bezzávitové nasazení : zarovnej značku, zasuň a lehce pootoč. Drží pevně, sundáš za vteřinu. K dispozici ve třech barvách : černá, červená a modrá. Lehký, odolný 3D tisk — vyrobeno v ČR. Jak se nasazuje? Imitace tlumiče se připevňuje jednoduchou bezzávitovou kombinací „zasuň a pootoč". Stačí zarovnat značku na tlumiči s výřezem na vnější hlavni, zatlačit a lehce pootočit — tlumič zůstane bezpečně na svém místě. Glock — již brzy! Na podpoře pro pistoli Glock už pracujeme. 3D modely máme hotové, dolaďujeme tisk a povrch materiálu. Zatím je tlumič určen pro M416 a HK416. Pozor: tato imitace tlumiče (stejně jako reálné tlumiče) neobsahuje žádnou pěnu ani aktivní tlumící prvek — je čistě vizuální doplněk a střelbu neztišuje.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/imitace-taktickeho-tlumice?variant=53216530563338</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/GG-Tlumice-Main-modra.jpg?v=1781560037</IMGURL>
@@ -734,6 +890,10 @@
     <PRODUCTNO>GG-TLUMIC-3</PRODUCTNO>
     <ITEMGROUP_ID>10541957021962</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>Modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53243499348234</ITEM_ID>
@@ -747,6 +907,10 @@
     <CATEGORYTEXT>Hračky | Příslušenství ke zbraním na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10548382531850</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53282872525066</ITEM_ID>
@@ -761,6 +925,10 @@
     <PRODUCTNO>M416BLUE</PRODUCTNO>
     <ITEMGROUP_ID>10556835037450</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53353857679626</ITEM_ID>
@@ -787,6 +955,10 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565466030346</ITEMGROUP_ID>
     <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354136305930</ITEM_ID>
@@ -800,6 +972,10 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565466358026</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červená</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354149970186</ITEM_ID>
@@ -813,6 +989,10 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565469634826</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406412554</ITEM_ID>
@@ -826,6 +1006,10 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484740874</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červeno-černá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406445322</ITEM_ID>
@@ -839,6 +1023,10 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484773642</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406478090</ITEM_ID>
@@ -852,6 +1040,10 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484806410</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červená</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406543626</ITEM_ID>
@@ -878,6 +1070,10 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484904714</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>modrá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406609162</ITEM_ID>
@@ -891,6 +1087,10 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484937482</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>černá</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406641930</ITEM_ID>
@@ -904,6 +1104,10 @@
     <CATEGORYTEXT>Hračky | Zbraně a pistole na kuličky</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484970250</ITEMGROUP_ID>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červená</VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>53354406674698</ITEM_ID>

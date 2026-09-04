@@ -52,13 +52,13 @@ def check_heureka(path, problems):
     root = ET.parse(path).getroot()
     if root.tag != "SHOP":
         problems.append(f"{path}: root is <{root.tag}>, Heureka feed 2.0 needs <SHOP>")
-        return set()
+        return set(), set()
 
     items = root.findall("SHOPITEM")
     if len(items) < MIN_ITEMS:
         problems.append(f"{path}: only {len(items)} SHOPITEMs, expected at least {MIN_ITEMS}")
 
-    ids, group_names = set(), {}
+    ids, in_stock, group_names = set(), set(), {}
     for it in items:
         iid = _text(it, "ITEM_ID")
         name = _text(it, "PRODUCTNAME")
@@ -68,6 +68,8 @@ def check_heureka(path, problems):
         if iid in ids:
             problems.append(f"{path}: duplicate ITEM_ID {iid}")
         ids.add(iid)
+        if _text(it, "DELIVERY_DATE") == "0":
+            in_stock.add(iid)
 
         for tag in ("PRODUCTNAME", "PRICE_VAT", "URL"):
             if not _text(it, tag):
@@ -111,11 +113,12 @@ def check_heureka(path, problems):
 
     print(f"{path}: {len(items)} offers, "
           f"{sum(1 for i in items if i.find('EAN') is not None)} with EAN, "
-          f"{sum(1 for i in items if i.find('PARAM') is not None)} with PARAM")
-    return ids
+          f"{sum(1 for i in items if i.find('PARAM') is not None)} with PARAM, "
+          f"{len(in_stock)} in stock")
+    return ids, in_stock
 
 
-def check_availability(path, product_ids, problems, now=None):
+def check_availability(path, product_ids, in_stock_ids, problems, now=None):
     now = now or datetime.now()
     root = ET.parse(path).getroot()
     if root.tag != "item_list":
@@ -142,8 +145,15 @@ def check_availability(path, product_ids, problems, now=None):
         if qty is not None and eta is not None:
             problems.append(f"{path}: {iid} has both stock_quantity and delivery_time "
                             "— Heureka's schema accepts only one of them per item")
-        if qty is not None and not (qty.text or "").strip().isdigit():
-            problems.append(f"{path}: {iid} stock_quantity is not a whole number")
+        if qty is not None:
+            raw = (qty.text or "").strip()
+            if not raw.isdigit():
+                problems.append(f"{path}: {iid} stock_quantity is not a whole number")
+            elif int(raw) == 0:
+                # "Počet kusů produktu skladem nesmí být 0. Produkty, které
+                # nemáte skladem, do dostupnostního XML vůbec neuvádějte."
+                problems.append(f"{path}: {iid} stock_quantity is 0 — an out-of-stock "
+                                "offer must be left out of this feed entirely")
         if eta is not None:
             val = (eta.text or "").strip()
             if not TIME_RE.match(val):
@@ -159,12 +169,16 @@ def check_availability(path, product_ids, problems, now=None):
                     elif datetime.strptime(deadline, "%Y-%m-%d %H:%M") < now:
                         problems.append(f"{path}: {iid} orderDeadline {deadline} is in the past")
 
-    # Offers left out of the availability feed show as "info v obchode" on Heureka
-    # even when the product feed says they are in stock.
-    missing = product_ids - ids
+    # An in-stock offer missing from here shows as "info v obchode" on Heureka;
+    # an out-of-stock offer present here is rejected outright.
+    missing = in_stock_ids - ids
     if missing:
-        problems.append(f"{path}: {len(missing)} offers from heureka.xml are missing here "
-                        f"(e.g. {sorted(missing)[:3]})")
+        problems.append(f"{path}: {len(missing)} in-stock offers from heureka.xml are "
+                        f"missing here (e.g. {sorted(missing)[:3]})")
+    out_of_stock_here = ids & (product_ids - in_stock_ids)
+    if out_of_stock_here:
+        problems.append(f"{path}: {len(out_of_stock_here)} out-of-stock offers appear here "
+                        f"and must not (e.g. {sorted(out_of_stock_here)[:3]})")
     extra = ids - product_ids
     if extra:
         problems.append(f"{path}: {len(extra)} ids are not in heureka.xml "
@@ -205,8 +219,8 @@ def main(feed_dir):
         print("\n".join(problems))
         sys.exit("REFUSING TO PUBLISH")
 
-    product_ids = check_heureka(heureka, problems)
-    check_availability(availability, product_ids, problems)
+    product_ids, in_stock_ids = check_heureka(heureka, problems)
+    check_availability(availability, product_ids, in_stock_ids, problems)
     check_zbozi(zbozi, heureka, problems)
 
     if problems:

@@ -22,13 +22,12 @@ three repository secrets (Settings → Secrets and variables → Actions):
 
 Before anything is committed, the workflow validates the Czech feeds with
 `validate_cz.py` — root element and namespace per file, mandatory tags, Heureka
-category paths, known `DELIVERY_ID`s, availability ids matching the product feed,
-no two variants sharing a name, and `zbozi.xml` never being a copy of
-`heureka.xml` — and **both** Google feeds: every item must link to a `?view=safe`
-page, no curated field may contain a model name, prices must be in the feed's own
-currency, the Slovak feed's links must stay under `/sk-sk/`, and the item counts
-must be sane. A run that fails either check publishes nothing, so the last good
-feeds stay live.
+category paths, known `DELIVERY_ID`s, the availability rules below, no two variants
+sharing a name, and `zbozi.xml` never being a copy of `heureka.xml` — and **both**
+Google feeds: every item must link to a `?view=safe` page, no curated field may
+contain a model name, prices must be in the feed's own currency, the Slovak feed's
+links must stay under `/sk-sk/`, and the item counts must be sane. A run that fails
+either check publishes nothing, so the last good feeds stay live.
 
 ## Czech comparison sites
 
@@ -44,17 +43,32 @@ starting with `Neočekávaný element SHOP na řádku 2`.
 | `heureka.xml` | `<SHOP>` / `<SHOPITEM>` | Nastavení → Profil obchodu → **URL XML obchodu** |
 | `heureka-availability.xml` | `<item_list>` / `<item id="…">` | Nastavení → **Dostupnostní XML soubor** |
 
-Every offer appears in the availability feed, including the out-of-stock ones —
-an offer left out shows as "info v obchodě" on Heureka even when the product feed
-says it is in stock. Each item carries **exactly one** of `stock_quantity` /
-`delivery_time`: an item with neither means "cannot be delivered", and an item with
-both is rejected by Heureka's schema (`Extra element delivery_time in interleave`).
-Out of stock is therefore `stock_quantity` 0 alone, and the restock horizon reaches
-Heureka through `DELIVERY_DATE` in the product feed.
+### Availability feed rules
+
+Three rules, two of which are not in the spec and were learned from Heureka's
+processing errors:
+
+1. **Only in-stock offers belong there.** *„Počet kusů produktu skladem nesmí být 0.
+   Produkty, které nemáte skladem, do dostupnostního XML vůbec neuvádějte."* An
+   out-of-stock offer is omitted entirely — its delivery time still reaches Heureka
+   through `DELIVERY_DATE` in the product feed.
+2. **Every in-stock offer must be there.** One left out shows as "info v obchodě"
+   even when the product feed says it is in stock.
+3. **Exactly one of `stock_quantity` / `delivery_time` per item.** Neither means
+   "cannot be delivered"; both is rejected by the schema with `Extra element
+   delivery_time in interleave` / `Element item failed to validate content`.
+
+`delivery_time` is only used for an offer that is sellable but has no honest count
+(untracked inventory, or overselling allowed) — inventing a quantity would be exactly
+the kind of untrue availability claim Heureka blocks shops for.
+
+### Zbozi.cz
 
 `zbozi.xml` carries the mandatory `xmlns="http://www.zbozi.cz/ns/offer/1.0"`. Without
 it Seznam rejects every element the same way, which is what happened while it was a
 byte-for-byte copy of `heureka.xml`.
+
+### Product feed
 
 Every offer carries `<DELIVERY>` for Zásilkovna domů (99 Kč) and Z-BOX (79 Kč),
 dropping to 0 Kč at the `FREE_SHIPPING_FROM_CZK` threshold — shipping is computed per

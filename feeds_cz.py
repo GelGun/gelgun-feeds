@@ -267,31 +267,35 @@ def _next_order_deadline(now):
 
 
 def _availability_rows(indent, item, now):
-    """Exactly ONE of stock_quantity / delivery_time per item.
+    """Rows for one offer, or None when the offer does not belong in this feed.
 
-    An item carrying neither means "cannot be delivered", and an item left out of
-    the feed altogether shows as "info v obchodě" on Heureka even when the
-    product feed says it is in stock — so every offer gets a row. But an item
-    carrying BOTH is rejected by Heureka's schema:
+    Two rules Heureka enforces at processing time, neither of them in the spec,
+    both learned the hard way:
 
-        Extra element delivery_time in interleave (line N)
-        Element item failed to validate content (line N+2)
+      1. An item may carry stock_quantity OR delivery_time, never both. The pair
+         is rejected by the schema with "Extra element delivery_time in
+         interleave" / "Element item failed to validate content".
+      2. "Počet kusů produktu skladem nesmí být 0. Produkty, které nemáte
+         skladem, do dostupnostního XML vůbec neuvádějte." So an out-of-stock
+         offer is omitted entirely rather than sent as stock_quantity 0.
 
-    which is what the first version of this feed did for the 17 out-of-stock
-    offers. Out of stock is therefore stock_quantity 0 alone; the restock horizon
-    still reaches Heureka through DELIVERY_DATE in the product feed."""
+    Leaving an out-of-stock offer out costs nothing: its delivery time still
+    reaches Heureka through DELIVERY_DATE in the product feed. The rule about
+    omission only bites for offers that ARE in stock — those must be here, or
+    Heureka shows "info v obchodě" for them."""
+    if item["availability"] != "in_stock":
+        return None
+
     v = item["variant"]
     tracked = v.get("inventory_management") is not None
     qty = int(v.get("inventory_quantity") or 0)
-
-    if item["availability"] != "in_stock":
-        return [f"{indent}<stock_quantity>0</stock_quantity>"]
 
     if tracked and qty > 0:
         return [f"{indent}<stock_quantity>{qty}</stock_quantity>"]
 
     # In stock but with no honest count (untracked, or overselling allowed):
-    # declare a delivery time instead of inventing a quantity.
+    # declare a delivery time instead of inventing a quantity — and never a
+    # zero, which Heureka rejects.
     deadline = _next_order_deadline(now)
     eta = _at(_next_business_day(deadline), DELIVERY_ETA_HOUR)
     return [f'{indent}<delivery_time orderDeadline="{_fmt(deadline)}">'
@@ -302,8 +306,11 @@ def build_heureka_availability(items, now=None):
     now = now or datetime.now()
     out = ['<?xml version="1.0" encoding="utf-8"?>', '<item_list>']
     for it in items:
+        rows = _availability_rows('    ', it, now)
+        if rows is None:                      # out of stock — must not appear
+            continue
         out.append(f'  <item id="{escape(it["id"])}">')
-        out.extend(_availability_rows('    ', it, now))
+        out.extend(rows)
         out.append('  </item>')
     out.append('</item_list>')
     return "\n".join(out)
@@ -354,7 +361,8 @@ def generate(items=None, write=True):
 
     stats = {
         "heureka_items": len(items),
-        "heureka_availability_items": len(items),
+        "heureka_availability_items": sum(
+            1 for it in items if it["availability"] == "in_stock"),
         "zbozi_items": len(items),
         "with_ean": sum(1 for it in items if it["gtin"]),
         "with_param": sum(1 for it in items if _param_rows("", it)),

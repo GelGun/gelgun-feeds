@@ -37,7 +37,7 @@
     <stock_quantity>12</stock_quantity>
   </item>
   <item id="44723744473354">
-    <stock_quantity>103</stock_quantity>
+    <stock_quantity>100</stock_quantity>
   </item>
   <item id="44775810171146">
     <stock_quantity>55</stock_quantity>
@@ -89,9 +89,6 @@
   </item>
   <item id="52381994483978">
     <stock_quantity>10</stock_quantity>
-  </item>
-  <item id="52381999431946">
-    <stock_quantity>1</stock_quantity>
   </item>
   <item id="52382000873738">
     <stock_quantity>4</stock_quantity>

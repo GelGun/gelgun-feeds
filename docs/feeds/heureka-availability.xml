@@ -4,7 +4,7 @@
     <stock_quantity>22</stock_quantity>
   </item>
   <item id="44597142356234">
-    <stock_quantity>52</stock_quantity>
+    <stock_quantity>51</stock_quantity>
   </item>
   <item id="44626479874314">
     <stock_quantity>4</stock_quantity>
@@ -22,7 +22,7 @@
     <stock_quantity>8</stock_quantity>
   </item>
   <item id="44645627265290">
-    <stock_quantity>30</stock_quantity>
+    <stock_quantity>29</stock_quantity>
   </item>
   <item id="44645627298058">
     <stock_quantity>48</stock_quantity>
@@ -82,10 +82,10 @@
     <stock_quantity>89</stock_quantity>
   </item>
   <item id="51968383451402">
-    <stock_quantity>8</stock_quantity>
+    <delivery_time orderDeadline="2026-09-25 12:00">2026-09-28 18:00</delivery_time>
   </item>
   <item id="51968968458506">
-    <stock_quantity>12</stock_quantity>
+    <stock_quantity>11</stock_quantity>
   </item>
   <item id="52381994483978">
     <stock_quantity>10</stock_quantity>

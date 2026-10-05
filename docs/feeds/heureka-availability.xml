@@ -4,7 +4,7 @@
     <stock_quantity>21</stock_quantity>
   </item>
   <item id="44597142356234">
-    <stock_quantity>48</stock_quantity>
+    <stock_quantity>49</stock_quantity>
   </item>
   <item id="44626479874314">
     <stock_quantity>2</stock_quantity>
@@ -22,22 +22,22 @@
     <stock_quantity>8</stock_quantity>
   </item>
   <item id="44645627265290">
-    <stock_quantity>28</stock_quantity>
+    <stock_quantity>29</stock_quantity>
   </item>
   <item id="44645627298058">
     <stock_quantity>45</stock_quantity>
   </item>
   <item id="44646339379466">
-    <stock_quantity>27</stock_quantity>
+    <stock_quantity>28</stock_quantity>
   </item>
   <item id="44646340296970">
-    <stock_quantity>142</stock_quantity>
+    <stock_quantity>143</stock_quantity>
   </item>
   <item id="44646340329738">
     <stock_quantity>7</stock_quantity>
   </item>
   <item id="44723744473354">
-    <stock_quantity>96</stock_quantity>
+    <stock_quantity>97</stock_quantity>
   </item>
   <item id="44775810171146">
     <stock_quantity>52</stock_quantity>
@@ -52,7 +52,7 @@
     <stock_quantity>9</stock_quantity>
   </item>
   <item id="44876381749514">
-    <stock_quantity>16</stock_quantity>
+    <stock_quantity>15</stock_quantity>
   </item>
   <item id="45653841871114">
     <stock_quantity>8</stock_quantity>
@@ -73,7 +73,7 @@
     <stock_quantity>5</stock_quantity>
   </item>
   <item id="50968946671882">
-    <stock_quantity>65</stock_quantity>
+    <stock_quantity>66</stock_quantity>
   </item>
   <item id="51592637153546">
     <stock_quantity>18</stock_quantity>
@@ -81,8 +81,11 @@
   <item id="51594245013770">
     <stock_quantity>82</stock_quantity>
   </item>
+  <item id="51968383451402">
+    <stock_quantity>1</stock_quantity>
+  </item>
   <item id="51968968458506">
-    <stock_quantity>5</stock_quantity>
+    <stock_quantity>8</stock_quantity>
   </item>
   <item id="52381994483978">
     <stock_quantity>10</stock_quantity>
@@ -109,7 +112,7 @@
     <stock_quantity>5</stock_quantity>
   </item>
   <item id="53353857679626">
-    <stock_quantity>8</stock_quantity>
+    <stock_quantity>7</stock_quantity>
   </item>
   <item id="53354136305930">
     <stock_quantity>4</stock_quantity>

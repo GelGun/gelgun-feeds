@@ -46,8 +46,37 @@ CATEGORY_MAP = {
                                          "Hračky | Zbraně a pistole na kuličky"),
     "Příslušenství pro dětské zbraně":  ("Toys & Games > Toys > Toy Weapons Accessories",
                                          "Hračky | Příslušenství ke zbraním na kuličky"),
+    "Gelové kuličky a příslušenství":   ("Toys & Games > Toys > Toy Weapons Accessories",
+                                         "Hračky | Příslušenství ke zbraním na kuličky"),
 }
 CATEGORY_FALLBACK = ("Toys & Games > Toys", "Hračky")
+
+# Accessory product types (explicit list; replaces the old startswith("Příslušenství") check).
+# Keep both names while the rename "Příslušenství pro dětské zbraně" -> "Gelové kuličky a příslušenství" rolls out.
+ACCESSORY_TYPES = {"Příslušenství pro dětské zbraně", "Gelové kuličky a příslušenství"}
+# Exact official portal categories (24 Oct 2026). Heureka and Zbozi each get the exact path from
+# their own category list (heureka-sekce.xml / zbozi categories.csv); the shared CATEGORY_MAP
+# text above did not match either list, and Heureka auto-filed our gel balls under "Kvetiny".
+# Heureka's own name contains a double space before the last "|"; it is kept exactly as published.
+BLASTER_TYPES_FEED = {"Dětské zbraně", "Gel Gun", "Gelový blaster", "Výhodné sety"}
+HEUREKA_CATEGORY = {
+    "blaster":   "Heureka.cz | Hračky | Dětské zbraně a příslušenství  | Dětské zbraně",
+    "accessory": "Heureka.cz | Hračky | Dětské zbraně a příslušenství  | Příslušenství pro dětské zbraně",
+}
+ZBOZI_CATEGORY = {
+    "blaster":   "Dětské zboží | Hračky | Dětské zbraně a doplňky | Dětské zbraně",
+    "accessory": "Dětské zboží | Hračky | Dětské zbraně a doplňky | Doplňky k dětským zbraním",
+}
+
+
+def portal_class(product):
+    t = product.get("product_type") or ""
+    if t in ACCESSORY_TYPES:
+        return "accessory"
+    if t in BLASTER_TYPES_FEED:
+        return "blaster"
+    return None
+
 
 # ── TikTok safety filter ──────────────────────────────────────────────────────
 # TikTok ad policy: toy/imitation firearms are allowed only when brightly coloured
@@ -104,7 +133,7 @@ def tiktok_excluded(product):
     if title in TIKTOK_EXCLUDE_TITLES:
         return True
     low = title.lower()
-    is_accessory = (product.get("product_type") or "").startswith("Příslušenství")
+    is_accessory = (product.get("product_type") or "") in ACCESSORY_TYPES
     if is_accessory:
         return "tlumič" in low          # suppressor stays out even as an accessory
     return any(k in low for k in _DARK_REALISTIC_KEYWORDS)
@@ -172,6 +201,7 @@ def category_for(product):
 def iter_items(products):
     for p in products:
         gcat, hcat = category_for(p)
+        pc = portal_class(p)
         for v in p.get("variants", []):
             reg, sale = price_pair(v)
             img = variant_image(p, v)
@@ -192,6 +222,8 @@ def iter_items(products):
                 "sku": v.get("sku") or "",
                 "google_category": gcat,
                 "cz_category": hcat,
+                "heureka_category": HEUREKA_CATEGORY.get(pc, hcat),
+                "zbozi_category": ZBOZI_CATEGORY.get(pc, hcat),
                 "product": p,
                 "variant": v,
                 "variant_count": len(p.get("variants", [])),
@@ -251,7 +283,7 @@ def build_heureka(items):
             _tag('    ', 'IMGURL', it["image"]),
             _tag('    ', 'PRICE_VAT', it["selling"]),
             _tag('    ', 'MANUFACTURER', it["brand"]),
-            _tag('    ', 'CATEGORYTEXT', it["cz_category"]),
+            _tag('    ', 'CATEGORYTEXT', it["heureka_category"]),
             _tag('    ', 'EAN', it["gtin"]) if it["gtin"] else None,
             _tag('    ', 'PRODUCTNO', it["sku"]) if it["sku"] else None,
             _tag('    ', 'ITEMGROUP_ID', it["item_group_id"]),
@@ -277,7 +309,7 @@ def build_zbozi(items):
             _tag('    ', 'IMGURL', it["image"]),
             _tag('    ', 'PRICE_VAT', it["selling"]),
             _tag('    ', 'MANUFACTURER', it["brand"]),
-            _tag('    ', 'CATEGORYTEXT', it["cz_category"]),
+            _tag('    ', 'CATEGORYTEXT', it["zbozi_category"]),
             _tag('    ', 'EAN', it["gtin"]) if it["gtin"] else None,
             _tag('    ', 'PRODUCTNO', it["sku"]) if it["sku"] else None,
             _tag('    ', 'ITEMGROUP_ID', it["item_group_id"]),
@@ -500,7 +532,7 @@ def _google_family(handle, product):
         return "set"
     if "kulicky" in handle or "naboje" in handle or "kanystr" in handle:
         return "ammo"
-    if ptype.startswith("Příslušenství") or handle in (
+    if ptype in ACCESSORY_TYPES or handle in (
             "maska-na-oblicej-na-objednavku", "ochranna-vesta-gel-gun",
             "elektricky-terc-pro-gel-gun", "kyblik-na-kulicky-pouze-na-objednani",
             "lahvicka-na-gelove-kulicky", "skladaci-lahvicka-na-gelove-kulicky-cerna",

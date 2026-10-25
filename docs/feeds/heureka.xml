@@ -1782,4 +1782,56 @@
       <DELIVERY_PRICE_COD>118</DELIVERY_PRICE_COD>
     </DELIVERY>
   </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>53973899116810</ITEM_ID>
+    <PRODUCTNAME>MINIGUN ČERVENÝ – rotační blaster na gelové kuličky</PRODUCTNAME>
+    <PRODUCT>MINIGUN ČERVENÝ – rotační blaster na gelové kuličky</PRODUCT>
+    <DESCRIPTION>Konečně pořádný ROTAČÁK! S Minigunem budeš mít převahu v každé bitvě díky největší baterii z dostupných blasterů a dvěma hlavním, které střílí nezávisle na sobě. Tuhle sílu nikdo nepřehlédne: při střelbě jdou od rotujících hlavní Minigunu barevné záblesky. Náš rotačák používá dva nezávislé, průhledné zásobníky, takže víš, jak dlouho ještě můžeš dominovat hře! Klíčové vlastnosti 🔄 2 rotující hlavně 💥 14 kuliček za vteřinu 🔋 Zvětšená baterie 1 200 mAh 💡 Rotující svítící hlavně 🛡 Záruka &amp; podpora v ČR Ochranné brýle nejsou součástí balení. Doporučujeme ochrannou masku .</DESCRIPTION>
+    <URL>https://gel-gun.cz/products/minigun-cerveny-rotacni-blaster-na-gelove-kulicky?variant=53973899116810</URL>
+    <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/Rotacak.jpg?v=1792942539</IMGURL>
+    <PRICE_VAT>1790.00</PRICE_VAT>
+    <MANUFACTURER>GEL GUN</MANUFACTURER>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
+    <PRODUCTNO>MINIGUN-RED</PRODUCTNO>
+    <ITEMGROUP_ID>10679587766538</ITEMGROUP_ID>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME>Barva</PARAM_NAME>
+      <VAL>červená</VAL>
+    </PARAM>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+      <DELIVERY_PRICE_COD>39</DELIVERY_PRICE_COD>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+      <DELIVERY_PRICE_COD>39</DELIVERY_PRICE_COD>
+    </DELIVERY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>53973902983434</ITEM_ID>
+    <PRODUCTNAME>M4 TACTICAL – blaster na gelové kuličky se zpětným rázem</PRODUCTNAME>
+    <PRODUCT>M4 TACTICAL – blaster na gelové kuličky se zpětným rázem</PRODUCT>
+    <DESCRIPTION>Taktický vzhled, elektrický zpětný ráz a o čtvrtinu víc síly než M416. M4 TACTICAL je pro hráče, kterým standard nestačí. V elektrickém režimu se při každé dávce pohne konec hlavně i závěr, takže střelbu opravdu cítíš. Skeletonové tělo, sklopná pažba, průhledný zásobník na 200 kuliček a v balení puškohled s funkčním kompasem, tlumič, oranžová koncovka i ochranné brýle. Klíčové vlastnosti 💥 Elektrický zpětný ráz ⚡ 0,2 J: o 25 % víc než M416 🎯 Dostřel 15–20 m 👁 Průhledný zásobník ~200 kuliček 📐 Sklopná pažba 🧭 Puškohled s kompasem 🛡 Záruka &amp; podpora v ČR</DESCRIPTION>
+    <URL>https://gel-gun.cz/products/m4-tactical-blaster-na-gelove-kulicky?variant=53973902983434</URL>
+    <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/M4Tactical.jpg?v=1792942574</IMGURL>
+    <PRICE_VAT>1290.00</PRICE_VAT>
+    <MANUFACTURER>GEL GUN</MANUFACTURER>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
+    <PRODUCTNO>MK7-TAC</PRODUCTNO>
+    <ITEMGROUP_ID>10679588520202</ITEMGROUP_ID>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>99</DELIVERY_PRICE>
+      <DELIVERY_PRICE_COD>138</DELIVERY_PRICE_COD>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>79</DELIVERY_PRICE>
+      <DELIVERY_PRICE_COD>118</DELIVERY_PRICE_COD>
+    </DELIVERY>
+  </SHOPITEM>
 </SHOP>

@@ -31,7 +31,7 @@
     <stock_quantity>5</stock_quantity>
   </item>
   <item id="44723744473354">
-    <stock_quantity>96</stock_quantity>
+    <stock_quantity>90</stock_quantity>
   </item>
   <item id="44775810171146">
     <stock_quantity>50</stock_quantity>
@@ -40,7 +40,7 @@
     <stock_quantity>16</stock_quantity>
   </item>
   <item id="44876374442250">
-    <stock_quantity>109</stock_quantity>
+    <stock_quantity>108</stock_quantity>
   </item>
   <item id="44876374475018">
     <stock_quantity>7</stock_quantity>
@@ -55,7 +55,7 @@
     <stock_quantity>3</stock_quantity>
   </item>
   <item id="50968795840778">
-    <stock_quantity>54</stock_quantity>
+    <stock_quantity>52</stock_quantity>
   </item>
   <item id="50968834769162">
     <stock_quantity>22</stock_quantity>
@@ -73,10 +73,10 @@
     <stock_quantity>15</stock_quantity>
   </item>
   <item id="51594245013770">
-    <stock_quantity>77</stock_quantity>
+    <stock_quantity>75</stock_quantity>
   </item>
   <item id="51968968458506">
-    <stock_quantity>2</stock_quantity>
+    <stock_quantity>1</stock_quantity>
   </item>
   <item id="52381994483978">
     <stock_quantity>10</stock_quantity>
@@ -110,5 +110,11 @@
   </item>
   <item id="53354406674698">
     <stock_quantity>3</stock_quantity>
+  </item>
+  <item id="53973899116810">
+    <stock_quantity>18</stock_quantity>
+  </item>
+  <item id="53973902983434">
+    <stock_quantity>48</stock_quantity>
   </item>
 </item_list>

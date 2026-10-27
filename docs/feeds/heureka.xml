@@ -802,29 +802,6 @@
     </DELIVERY>
   </SHOPITEM>
   <SHOPITEM>
-    <ITEM_ID>50980305961226</ITEM_ID>
-    <PRODUCTNAME>M416 TACTICAL: Výhodný set</PRODUCTNAME>
-    <PRODUCT>M416 TACTICAL: Výhodný set</PRODUCT>
-    <DESCRIPTION>Náš nejpopulárnější model ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: M416 Elektrický Gel Gun - TACTICAL varianta Ochranná vesta GEL GUN Barel s modrými gelovými kuličkami - 50 000 ks Lahvička na gelové kuličky Elektrická M416 na gelové kuličky ve verzi TACTICAL je spolehlivou cestou k obrovské zábavě za rozumnou cenu. V balení navíc najdeš vše, co potřebuješ do akce. S velkým dostřelem se navíc neztratíš v žádné hře. 2 nezávislé mody střelby v jedné pušce: manuální a elektrický Plně automatická střelba při pohonu baterií. Střílí zhruba 12 kuliček za vteřinu . Kompatibilní s příslušenstvím pro RIS lišty (např. airsoftové svítilny či Red Doty) Funkční pojistka. Možnost střelby bez baterie . Dva zásobníky v ceně: Bubnový a běžný Včetně příslušenství v balení : mířidla, puškohled, tlumič, dvě ručky, kuličky, baterie i brýle. Jednoduché dobíjení baterie pomocí USB. Záruka a podpora v ČR.</DESCRIPTION>
-    <URL>https://gel-gun.cz/products/m416-tactical-vyhodny-set?variant=50980305961226</URL>
-    <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/M4_Tactical_bundle.jpg?v=1761498445</IMGURL>
-    <PRICE_VAT>2149.00</PRICE_VAT>
-    <MANUFACTURER>GEL GUN</MANUFACTURER>
-    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
-    <ITEMGROUP_ID>10009900056842</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
-    <DELIVERY>
-      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
-      <DELIVERY_PRICE>0</DELIVERY_PRICE>
-      <DELIVERY_PRICE_COD>39</DELIVERY_PRICE_COD>
-    </DELIVERY>
-    <DELIVERY>
-      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
-      <DELIVERY_PRICE>0</DELIVERY_PRICE>
-      <DELIVERY_PRICE_COD>39</DELIVERY_PRICE_COD>
-    </DELIVERY>
-  </SHOPITEM>
-  <SHOPITEM>
     <ITEM_ID>51592637153546</ITEM_ID>
     <PRODUCTNAME>M416 ČERNÝ Blaster na Gelové Kuličky</PRODUCTNAME>
     <PRODUCT>M416 ČERNÝ Blaster na Gelové Kuličky</PRODUCT>
@@ -1524,14 +1501,14 @@
     <ITEM_ID>53354136305930</ITEM_ID>
     <PRODUCTNAME>M416 ČERVENÁ: Výhodný set</PRODUCTNAME>
     <PRODUCT>M416 ČERVENÁ: Výhodný set</PRODUCT>
-    <DESCRIPTION>Oblíbená M416 v červené variantě ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: M416 Elektrický Gel Gun – červené varianta Kyblík na vodní gelové kuličky (ammo tub) modrý 5× pytlík oranžových gelových kuliček (5× 10 000 ks = 50 000 ks) Skládací lahvička na gelové kuličky Elektrická M416 na gelové kuličky je spolehlivou cestou k obrovské zábavě za rozumnou cenu. V balení navíc najdete vše, co potřebujete do akce. S velkým dostřelem se navíc neztratíte v žádné hře. 2 nezávislé mody střelby v jedné pušce: manuální a elektrický Plně automatická střelba při pohonu baterií. Kompatibilní s příslušenstvím pro RIS lišty (např. airsoftové svítilny či Red Doty) Funkční pojistka. Možnost střelby bez baterie . Včetně příslušenství v balení : mířidla, puškohled, tlumič, ručka, kuličky, baterie, zásobník i brýle. Jednoduché dobíjení baterie pomocí USB. Záruka a podpora v ČR.</DESCRIPTION>
+    <DESCRIPTION>Oblíbená M416 v červené variantě ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: M416 Elektrický Gel Gun – červené varianta Kyblík na vodní gelové kuličky (ammo tub) oranžový 5× pytlík oranžových gelových kuliček (5× 10 000 ks = 50 000 ks) Skládací lahvička na gelové kuličky Elektrická M416 na gelové kuličky je spolehlivou cestou k obrovské zábavě za rozumnou cenu. V balení navíc najdete vše, co potřebujete do akce. S velkým dostřelem se navíc neztratíte v žádné hře. 2 nezávislé mody střelby v jedné pušce: manuální a elektrický Plně automatická střelba při pohonu baterií. Kompatibilní s příslušenstvím pro RIS lišty (např. airsoftové svítilny či Red Doty) Funkční pojistka. Možnost střelby bez baterie . Včetně příslušenství v balení : mířidla, puškohled, tlumič, ručka, kuličky, baterie, zásobník i brýle. Jednoduché dobíjení baterie pomocí USB. Záruka a podpora v ČR.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/m416-cervena-vyhodny-set?variant=53354136305930</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/CERVENA-set-main.jpg?v=1783876703</IMGURL>
     <PRICE_VAT>1990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565466358026</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME>Barva</PARAM_NAME>
       <VAL>červená</VAL>
@@ -1551,14 +1528,14 @@
     <ITEM_ID>53354149970186</ITEM_ID>
     <PRODUCTNAME>M416 ČERNÁ: Výhodný set</PRODUCTNAME>
     <PRODUCT>M416 ČERNÁ: Výhodný set</PRODUCT>
-    <DESCRIPTION>Oblíbená M416 v černé variantě ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: M416 Elektrický Gel Gun – černá varianta Kyblík na vodní gelové kuličky (ammo tub) modrý 5× pytlík modrých gelových kuliček (5× 10 000 ks = 50 000 ks) Skládací lahvička na gelové kuličky Elektrická M416 na gelové kuličky je spolehlivou cestou k obrovské zábavě za rozumnou cenu. V balení navíc najdete vše, co potřebujete do akce. S velkým dostřelem se navíc neztratíte v žádné hře. 2 nezávislé mody střelby v jedné pušce: manuální a elektrický Plně automatická střelba při pohonu baterií. Kompatibilní s příslušenstvím pro RIS lišty (např. airsoftové svítilny či Red Doty) Funkční pojistka. Možnost střelby bez baterie . Včetně příslušenství v balení : mířidla, puškohled, tlumič, ručka, kuličky, baterie, zásobník i brýle. Jednoduché dobíjení baterie pomocí USB. Záruka a podpora v ČR.</DESCRIPTION>
+    <DESCRIPTION>Oblíbená M416 v černé variantě ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: M416 Elektrický Gel Gun – černá varianta Kyblík na vodní gelové kuličky (ammo tub) oranžový 5× pytlík modrých gelových kuliček (5× 10 000 ks = 50 000 ks) Skládací lahvička na gelové kuličky Elektrická M416 na gelové kuličky je spolehlivou cestou k obrovské zábavě za rozumnou cenu. V balení navíc najdete vše, co potřebujete do akce. S velkým dostřelem se navíc neztratíte v žádné hře. 2 nezávislé mody střelby v jedné pušce: manuální a elektrický Plně automatická střelba při pohonu baterií. Kompatibilní s příslušenstvím pro RIS lišty (např. airsoftové svítilny či Red Doty) Funkční pojistka. Možnost střelby bez baterie . Včetně příslušenství v balení : mířidla, puškohled, tlumič, ručka, kuličky, baterie, zásobník i brýle. Jednoduché dobíjení baterie pomocí USB. Záruka a podpora v ČR.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/m416-cerny-blaster-vyhodny-set?variant=53354149970186</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/CERNA-set-main.jpg?v=1783876885</IMGURL>
     <PRICE_VAT>1990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565469634826</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME>Barva</PARAM_NAME>
       <VAL>černá</VAL>
@@ -1578,14 +1555,14 @@
     <ITEM_ID>53354406412554</ITEM_ID>
     <PRODUCTNAME>M416 ČERVENO-ČERNÁ: Výhodný set</PRODUCTNAME>
     <PRODUCT>M416 ČERVENO-ČERNÁ: Výhodný set</PRODUCT>
-    <DESCRIPTION>Oblíbený model ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: M416 Elektrický Gel Gun – červeno-černá varianta Kyblík na vodní gelové kuličky (ammo tub) modrý 5× pytlík modrých gelových kuliček (5× 10 000 ks = 50 000 ks) Skládací lahvička na gelové kuličky Elektrická M416 na gelové kuličky je spolehlivou cestou k obrovské zábavě. 2 mody střelby, USB dobíjení, záruka v ČR.</DESCRIPTION>
+    <DESCRIPTION>Oblíbený model ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: M416 Elektrický Gel Gun – červeno-černá varianta Kyblík na vodní gelové kuličky (ammo tub) oranžový 5× pytlík modrých gelových kuliček (5× 10 000 ks = 50 000 ks) Skládací lahvička na gelové kuličky Elektrická M416 na gelové kuličky je spolehlivou cestou k obrovské zábavě. 2 mody střelby, USB dobíjení, záruka v ČR.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/m416-cerveno-cerna-vyhodny-set?variant=53354406412554</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/red-black-main.jpg?v=1783878373</IMGURL>
     <PRICE_VAT>1990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484740874</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME>Barva</PARAM_NAME>
       <VAL>červeno-černá</VAL>
@@ -1605,14 +1582,14 @@
     <ITEM_ID>53354406445322</ITEM_ID>
     <PRODUCTNAME>GLOCK MODRÝ: Výhodný set</PRODUCTNAME>
     <PRODUCT>GLOCK MODRÝ: Výhodný set</PRODUCT>
-    <DESCRIPTION>Oblíbený Gel Gun Glock ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: Gel Gun Glock – modrá varianta Kyblík na vodní gelové kuličky (ammo tub) modrý 5× pytlík modrých gelových kuliček (5× 10 000 ks = 50 000 ks) Skládací lahvička na gelové kuličky Gel Gun Glock je lehký a skladný, s dvojitým režimem střelby a USB dobíjením. Záruka a podpora v ČR.</DESCRIPTION>
+    <DESCRIPTION>Oblíbený Gel Gun Glock ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: Gel Gun Glock – modrá varianta Kyblík na vodní gelové kuličky (ammo tub) oranžový 5× pytlík modrých gelových kuliček (5× 10 000 ks = 50 000 ks) Skládací lahvička na gelové kuličky Gel Gun Glock je lehký a skladný, s dvojitým režimem střelby a USB dobíjením. Záruka a podpora v ČR.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/glock-modry-vyhodny-set?variant=53354406445322</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/10565484773642-main.jpg?v=1783890882</IMGURL>
     <PRICE_VAT>1949.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484773642</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME>Barva</PARAM_NAME>
       <VAL>modrá</VAL>
@@ -1632,14 +1609,14 @@
     <ITEM_ID>53354406478090</ITEM_ID>
     <PRODUCTNAME>GLOCK ČERVENÝ: Výhodný set</PRODUCTNAME>
     <PRODUCT>GLOCK ČERVENÝ: Výhodný set</PRODUCT>
-    <DESCRIPTION>Oblíbený model ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: Gel Gun Glock – červená varianta Kyblík na vodní gelové kuličky (ammo tub) modrý 5× pytlík modrých gelových kuliček (5× 10 000 ks = 50 000 ks) Skládací lahvička na gelové kuličky Gel Gun Glock je lehký a skladný, s dvojitým režimem střelby a USB dobíjením. Záruka a podpora v ČR.</DESCRIPTION>
+    <DESCRIPTION>Oblíbený model ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: Gel Gun Glock – červená varianta Kyblík na vodní gelové kuličky (ammo tub) oranžový 5× pytlík modrých gelových kuliček (5× 10 000 ks = 50 000 ks) Skládací lahvička na gelové kuličky Gel Gun Glock je lehký a skladný, s dvojitým režimem střelby a USB dobíjením. Záruka a podpora v ČR.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/glock-cerveny-vyhodny-set?variant=53354406478090</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/glock-cerveny-main.jpg?v=1783878398</IMGURL>
     <PRICE_VAT>1990.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484806410</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME>Barva</PARAM_NAME>
       <VAL>červená</VAL>
@@ -1709,14 +1686,14 @@
     <ITEM_ID>53354406609162</ITEM_ID>
     <PRODUCTNAME>P90 MINI ČERNÁ: Výhodný set</PRODUCTNAME>
     <PRODUCT>P90 MINI ČERNÁ: Výhodný set</PRODUCT>
-    <DESCRIPTION>Oblíbený P90 Mini ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: P90 Mini na gelové kuličky – černá varianta Kyblík na vodní gelové kuličky (ammo tub) modrý 30 000 oranžových gelových kuliček Skládací lahvička na gelové kuličky Kompaktní P90 Mini – ideální do ruky menších hráčů. USB dobíjení, záruka v ČR.</DESCRIPTION>
+    <DESCRIPTION>Oblíbený P90 Mini ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: P90 Mini na gelové kuličky – černá varianta Kyblík na vodní gelové kuličky (ammo tub) oranžový 30 000 oranžových gelových kuliček Skládací lahvička na gelové kuličky Kompaktní P90 Mini – ideální do ruky menších hráčů. USB dobíjení, záruka v ČR.</DESCRIPTION>
     <URL>https://gel-gun.cz/products/p90-mini-cerna-vyhodny-set?variant=53354406609162</URL>
     <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/p90-cerna-main.jpg?v=1783878528</IMGURL>
     <PRICE_VAT>1690.00</PRICE_VAT>
     <MANUFACTURER>GEL GUN</MANUFACTURER>
     <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
     <ITEMGROUP_ID>10565484937482</ITEMGROUP_ID>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME>Barva</PARAM_NAME>
       <VAL>černá</VAL>
@@ -1832,6 +1809,29 @@
       <DELIVERY_ID>Z_BOX</DELIVERY_ID>
       <DELIVERY_PRICE>79</DELIVERY_PRICE>
       <DELIVERY_PRICE_COD>118</DELIVERY_PRICE_COD>
+    </DELIVERY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>53990608437514</ITEM_ID>
+    <PRODUCTNAME>M4 TACTICAL: Výhodný set</PRODUCTNAME>
+    <PRODUCT>M4 TACTICAL: Výhodný set</PRODUCT>
+    <DESCRIPTION>M4 TACTICAL ve výhodném setu! Nakupte vše, co potřebujete, za výhodnou cenu. Set obsahuje: M4 TACTICAL – blaster na gelové kuličky se zpětným rázem Barel s modrými gelovými kuličkami – 50 000 ks Lahvička na gelové kuličky Skládací lahvička na gelové kuličky M4 TACTICAL má elektrický zpětný ráz – při každé dávce se pohne konec hlavně i závěr, takže střelbu opravdu cítíš. K tomu zásoba kuliček na dlouho a dvě lahvičky na rychlé nabíjení. Elektrický zpětný ráz Cca 0,2 J – o 25 % víc než M416 Dostřel 15–20 m Průhledný zásobník na cca 200 kuliček Sklopná pažba a puškohled s kompasem USB dobíjení, záruka a podpora v ČR</DESCRIPTION>
+    <URL>https://gel-gun.cz/products/m416-tactical-vyhodny-set?variant=53990608437514</URL>
+    <IMGURL>https://cdn.shopify.com/s/files/1/0669/7549/8506/files/M4Tactical_4453a5b6-b84c-4b5a-b6ee-e4f7d07c251f.jpg?v=1793090029</IMGURL>
+    <PRICE_VAT>1719.00</PRICE_VAT>
+    <MANUFACTURER>GEL GUN</MANUFACTURER>
+    <CATEGORYTEXT>Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně</CATEGORYTEXT>
+    <ITEMGROUP_ID>10684475834634</ITEMGROUP_ID>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
+    <DELIVERY>
+      <DELIVERY_ID>ZASILKOVNA_NA_ADRESU</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+      <DELIVERY_PRICE_COD>39</DELIVERY_PRICE_COD>
+    </DELIVERY>
+    <DELIVERY>
+      <DELIVERY_ID>Z_BOX</DELIVERY_ID>
+      <DELIVERY_PRICE>0</DELIVERY_PRICE>
+      <DELIVERY_PRICE_COD>39</DELIVERY_PRICE_COD>
     </DELIVERY>
   </SHOPITEM>
 </SHOP>

@@ -46,10 +46,10 @@ OUTPUT_DIR = feeds.OUTPUT_DIR
 HEUREKA_CAT_WEAPONS     = "Heureka.cz | Hračky | Dětské zbraně a příslušenství | Dětské zbraně"
 HEUREKA_CAT_ACCESSORIES = "Heureka.cz | Hračky | Dětské zbraně a příslušenství | Příslušenství pro dětské zbraně"
 
-# Zbozi.cz has its own tree and accepts a free-form path, so it keeps the
-# original shop-side wording rather than borrowing Heureka's.
-ZBOZI_CAT_WEAPONS     = "Hračky | Zbraně a pistole na kuličky"
-ZBOZI_CAT_ACCESSORIES = "Hračky | Příslušenství ke zbraním na kuličky"
+# Zbozi.cz has its own category tree. Send its exact official paths (Oct 2026)
+# instead of free text, so Zbozi does not have to guess where the offer belongs.
+ZBOZI_CAT_WEAPONS     = "Dětské zboží | Hračky | Dětské zbraně a doplňky | Dětské zbraně"
+ZBOZI_CAT_ACCESSORIES = "Dětské zboží | Hračky | Dětské zbraně a doplňky | Doplňky k dětským zbraním"
 
 # product_type → (heureka CATEGORYTEXT, zbozi CATEGORYTEXT). Keys mirror
 # feeds.CATEGORY_MAP; an unknown product_type falls back to the weapons path.
@@ -59,6 +59,8 @@ CZ_CATEGORY_MAP = {
     "Gelový blaster":                   (HEUREKA_CAT_WEAPONS, ZBOZI_CAT_WEAPONS),
     "Výhodné sety":                     (HEUREKA_CAT_WEAPONS, ZBOZI_CAT_WEAPONS),
     "Příslušenství pro dětské zbraně":  (HEUREKA_CAT_ACCESSORIES, ZBOZI_CAT_ACCESSORIES),
+    # New name for the same accessory type (rename rolling out Oct/Nov 2026).
+    "Gelové kuličky a příslušenství":   (HEUREKA_CAT_ACCESSORIES, ZBOZI_CAT_ACCESSORIES),
 }
 CZ_CATEGORY_FALLBACK = (HEUREKA_CAT_WEAPONS, ZBOZI_CAT_WEAPONS)
 

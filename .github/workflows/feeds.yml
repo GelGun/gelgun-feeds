@@ -10,6 +10,7 @@ on:
       - "feeds_sk.py"
       - "feeds_cz.py"
       - "run_feeds.py"
+      - "feeds_meta_de.py"
       - "validate_cz.py"
       - ".github/workflows/feeds.yml"
 permissions:
@@ -92,6 +93,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add docs/feeds/*.xml
+          git add docs/feeds/*.xml docs/feeds/*.csv
           git commit -m "Auto-update feeds" || echo "no changes"
           git push

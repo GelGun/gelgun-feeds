@@ -27,6 +27,7 @@ deleted.
 import feeds
 import feeds_sk
 import feeds_cz
+import feeds_meta_de
 
 if __name__ == "__main__":
     _, stats, excluded, google_dropped = feeds.generate(write=True)
@@ -45,3 +46,14 @@ if __name__ == "__main__":
     _, cz_stats = feeds_cz.generate(write=True)
     for k, v in cz_stats.items():
         print(f"  {k}: {v}")
+
+    # Meta catalog "GelGun DE" primary feed (German text, EUR, gel-gun.de links).
+    # Fetched daily by the catalog's scheduled feed. Isolated so a failure here
+    # never blocks the Google / Heureka / Zbozi feeds.
+    print("\nMeta DE catalog feed:")
+    try:
+        rows, skipped = feeds_meta_de.generate(write=True)
+        print(f"  meta_de_rows: {len(rows)}")
+        print(f"  meta_de_skipped: {len(skipped)}")
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! meta DE feed failed, keeping last published file: {e}")

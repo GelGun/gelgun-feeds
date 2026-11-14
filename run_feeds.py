@@ -47,15 +47,12 @@ if __name__ == "__main__":
     for k, v in cz_stats.items():
         print(f"  {k}: {v}")
 
-    # Meta catalog override feeds (DE/AT/SK country + de_DE/sk_SK language), fetched
-    # daily by the "Shopify Product Catalog" in Commerce Manager. Isolated so a failure
-    # here never blocks the Google / Heureka / Zbozi feeds, and generate() refuses to
-    # write near-empty files, so a bad run keeps the last good ones live.
-    print("\nMeta country/language override feeds:")
+    # Meta per-market catalogs "GelGun DE" / "GelGun SK" (primary feeds, fetched
+    # daily by each catalog). Isolated so a failure here never blocks the Google /
+    # Heureka / Zbozi feeds; generate() refuses to write near-empty files.
+    print("\nMeta DE/SK catalog feeds:")
     try:
-        c, l, skipped = feeds_meta_de.generate(write=True)
-        print(f"  meta_country_rows: {len(c)}")
-        print(f"  meta_language_rows: {len(l)}")
-        print(f"  meta_skipped: {len(skipped)}")
+        for key, (rows, skipped) in feeds_meta_de.generate(write=True).items():
+            print(f"  meta_{key}_rows: {len(rows)}  skipped: {len(skipped)}")
     except Exception as e:  # noqa: BLE001
-        print(f"  ! meta override feeds failed, keeping last published files: {e}")
+        print(f"  ! meta feeds failed, keeping last published files: {e}")

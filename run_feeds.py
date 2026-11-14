@@ -47,13 +47,15 @@ if __name__ == "__main__":
     for k, v in cz_stats.items():
         print(f"  {k}: {v}")
 
-    # Meta catalog "GelGun DE" primary feed (German text, EUR, gel-gun.de links).
-    # Fetched daily by the catalog's scheduled feed. Isolated so a failure here
-    # never blocks the Google / Heureka / Zbozi feeds.
-    print("\nMeta DE catalog feed:")
+    # Meta catalog override feeds (DE/AT/SK country + de_DE/sk_SK language), fetched
+    # daily by the "Shopify Product Catalog" in Commerce Manager. Isolated so a failure
+    # here never blocks the Google / Heureka / Zbozi feeds, and generate() refuses to
+    # write near-empty files, so a bad run keeps the last good ones live.
+    print("\nMeta country/language override feeds:")
     try:
-        rows, skipped = feeds_meta_de.generate(write=True)
-        print(f"  meta_de_rows: {len(rows)}")
-        print(f"  meta_de_skipped: {len(skipped)}")
+        c, l, skipped = feeds_meta_de.generate(write=True)
+        print(f"  meta_country_rows: {len(c)}")
+        print(f"  meta_language_rows: {len(l)}")
+        print(f"  meta_skipped: {len(skipped)}")
     except Exception as e:  # noqa: BLE001
-        print(f"  ! meta DE feed failed, keeping last published file: {e}")
+        print(f"  ! meta override feeds failed, keeping last published files: {e}")

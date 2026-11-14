@@ -10,7 +10,8 @@ Self-hosted product feeds for **gel-gun.cz**, generated from Shopify.
 | Heureka | `/feeds/heureka.xml` | Heureka.cz — základní XML feed 2.0 |
 | Heureka dostupnost | `/feeds/heureka-availability.xml` | Heureka.cz — dostupnostní XML soubor |
 | Zbozi | `/feeds/zbozi.xml` | Zbozi.cz / Seznam |
-| Meta DE | `/feeds/meta-de.csv` | Meta catalog "GelGun DE" (DE/AT ads): German text from Shopify translations, EUR from the DACH price list, gel-gun.de links |
+| Meta country | `/feeds/meta-country.csv` | Meta catalog override (DE, AT, SK): EUR price from Shopify's price list, link to gel-gun.de or /sk-sk/ |
+| Meta language | `/feeds/meta-language.csv` | Meta catalog override (de_DE, sk_SK): translated title + description |
 
 Served via GitHub Pages: `https://gelgun.github.io/gelgun-feeds/feeds/<name>.xml`
 

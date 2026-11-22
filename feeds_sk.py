@@ -133,6 +133,11 @@ _SK_FAMILY_DESC = {
                 "záhrade. Guľôčky sa pred hrou nechajú napučať vo vode, po dopade sa "
                 "rozpadnú a nezanechávajú žiadny neporiadok. Nabíjanie cez USB. "
                 "V balení nájdete guľôčky, ochranné okuliare aj všetko potrebné k hre."),
+    "blaster_no_glasses": ("Elektrická hračka na mäkké vodné gélové guľôčky pre hru "
+                           "vonku aj na záhrade. Guľôčky sa pred hrou nechajú napučať vo "
+                           "vode, po dopade sa rozpadnú a nezanechávajú žiadny neporiadok. "
+                           "Nabíjanie cez USB. V balení nájdete guľôčky aj všetko potrebné "
+                           "k hre."),
     "set": ("Zvýhodnená súprava v jednom balení – hračka na gélové guľôčky, zásoba "
             "guľôčok a príslušenstvo za nižšiu cenu než pri samostatnom nákupe. Guľôčky "
             "sa pred hrou nechajú napučať vo vode, po dopade sa rozpadnú a nezanechávajú "
@@ -202,7 +207,7 @@ def build(items):
             ('id', vid),
             ('item_group_id', it["item_group_id"]),
             ('title', title),
-            ('description', sk_description(sk, feeds._google_family(h, it["product"]))),
+            ('description', sk_description(sk, feeds.google_family_desc_key(h, it["product"]))),
             ('link', sk_link(h, vid)),
             ('image_link', feeds.google_image(it)),
             ('availability', feeds.google_availability(it)),

@@ -21,6 +21,7 @@ Design:
 
 import html
 import re
+import unicodedata
 import os
 from xml.sax.saxutils import escape
 
@@ -554,7 +555,14 @@ def ships_without_glasses(handle, product):
     tags = product.get("tags") or ""
     if isinstance(tags, str):
         tags = tags.split(",")
-    return NO_GLASSES_TAG in {t.strip().lower() for t in tags}
+    return NO_GLASSES_TAG in {_norm_tag(t) for t in tags}
+
+
+def _norm_tag(tag):
+    """'Bez brýlí', 'bez-brýlí' and 'bez-bryli' all match NO_GLASSES_TAG."""
+    t = unicodedata.normalize("NFKD", tag.strip().lower())
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return re.sub(r"[\s_]+", "-", t)
 
 
 def google_family_desc_key(handle, product):

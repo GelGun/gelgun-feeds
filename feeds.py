@@ -21,6 +21,7 @@ Design:
 
 import html
 import re
+import unicodedata
 import os
 from xml.sax.saxutils import escape
 
@@ -448,6 +449,13 @@ _G_FAMILY_DESC = {
         "nezanechávají žádný nepořádek. Dobíjení přes USB. V balení najdete kuličky, "
         "ochranné brýle i vše potřebné ke hře."
     ),
+    # Same block for blasters that ship WITHOUT safety glasses (see NO_GLASSES_*).
+    "blaster_no_glasses": (
+        "Elektrická hračka na měkké vodní gelové kuličky pro hru venku i na zahradě. "
+        "Kuličky se před hrou nechají nabobtnat ve vodě, po dopadu se rozpadnou a "
+        "nezanechávají žádný nepořádek. Dobíjení přes USB. V balení najdete kuličky "
+        "i vše potřebné ke hře."
+    ),
     "set": (
         "Zvýhodněná sada v jednom balení — hračka na gelové kuličky, zásoba kuliček "
         "a příslušenství za nižší cenu než při samostatném nákupu. Kuličky se před "
@@ -525,12 +533,52 @@ _G_FEATURES = {
 
 _G_CLOSER = "Doprava z ČR, česká záruka a podpora. Doporučeno od 12 let."
 
+# Blasters that do NOT ship with safety glasses (confirmed by Dominik 2026-11-22).
+# Their feed copy must not promise glasses. A product can also be marked in Shopify
+# with the tag below, so a new glasses-free blaster needs no code change.
+NO_GLASSES_HANDLES = {
+    "mp5-mini-modra-na-gelove-kulicky",
+    "m416-modra",                                         # M416 MODRÁ MINI
+    "minigun-cerveny-rotacni-blaster-na-gelove-kulicky",
+    "gel-gun-tank-na-dalkove-ovladani",
+}
+NO_GLASSES_TAG = "bez-bryli"
+
+# Product types that are always a blaster, even when the handle mentions "kulicky"
+# (e.g. "mp5-mini-modra-na-gelove-kulicky" is a blaster, not ammo).
+_BLASTER_TYPES = {"Dětské zbraně", "Gel Gun", "Gelový blaster"}
+
+
+def ships_without_glasses(handle, product):
+    if handle in NO_GLASSES_HANDLES:
+        return True
+    tags = product.get("tags") or ""
+    if isinstance(tags, str):
+        tags = tags.split(",")
+    return NO_GLASSES_TAG in {_norm_tag(t) for t in tags}
+
+
+def _norm_tag(tag):
+    """'Bez brýlí', 'bez-brýlí' and 'bez-bryli' all match NO_GLASSES_TAG."""
+    t = unicodedata.normalize("NFKD", tag.strip().lower())
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return re.sub(r"[\s_]+", "-", t)
+
+
+def google_family_desc_key(handle, product):
+    """Key into _G_FAMILY_DESC / feeds_sk._SK_FAMILY_DESC for this product."""
+    family = _google_family(handle, product)
+    if family == "blaster" and ships_without_glasses(handle, product):
+        return "blaster_no_glasses"
+    return family
+
 
 def _google_family(handle, product):
     ptype = (product.get("product_type") or "")
     if "set" in handle or ptype == "Výhodné sety":
         return "set"
-    if "kulicky" in handle or "naboje" in handle or "kanystr" in handle:
+    if ptype not in _BLASTER_TYPES and (
+            "kulicky" in handle or "naboje" in handle or "kanystr" in handle):
         return "ammo"
     if ptype in ACCESSORY_TYPES or handle in (
             "maska-na-oblicej-na-objednavku", "ochranna-vesta-gel-gun",
@@ -598,7 +646,7 @@ def google_description(item):
     feat = _G_FEATURES.get(h)
     if feat:
         parts.append(feat)
-    parts.append(_G_FAMILY_DESC[_google_family(h, item["product"])])
+    parts.append(_G_FAMILY_DESC[google_family_desc_key(h, item["product"])])
     parts.append(_G_CLOSER)
     return " ".join(parts)
 

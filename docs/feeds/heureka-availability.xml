@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item_list>
   <item id="44550399426826">
-    <stock_quantity>9</stock_quantity>
+    <stock_quantity>7</stock_quantity>
   </item>
   <item id="44597142356234">
-    <stock_quantity>154</stock_quantity>
+    <stock_quantity>152</stock_quantity>
   </item>
   <item id="44639930253578">
-    <stock_quantity>6</stock_quantity>
+    <stock_quantity>4</stock_quantity>
   </item>
   <item id="44639930319114">
-    <stock_quantity>15</stock_quantity>
+    <stock_quantity>14</stock_quantity>
   </item>
   <item id="44645627265290">
-    <stock_quantity>147</stock_quantity>
+    <stock_quantity>145</stock_quantity>
   </item>
   <item id="44645627298058">
-    <stock_quantity>218</stock_quantity>
+    <stock_quantity>215</stock_quantity>
   </item>
   <item id="44646339379466">
-    <stock_quantity>65</stock_quantity>
+    <stock_quantity>61</stock_quantity>
   </item>
   <item id="44646340296970">
-    <stock_quantity>393</stock_quantity>
+    <stock_quantity>383</stock_quantity>
   </item>
   <item id="44646340329738">
     <stock_quantity>3</stock_quantity>
@@ -31,19 +31,19 @@
     <stock_quantity>150</stock_quantity>
   </item>
   <item id="44775810171146">
-    <stock_quantity>101</stock_quantity>
+    <stock_quantity>96</stock_quantity>
   </item>
   <item id="44775915159818">
-    <stock_quantity>5</stock_quantity>
+    <stock_quantity>4</stock_quantity>
   </item>
   <item id="44876374442250">
-    <stock_quantity>403</stock_quantity>
+    <stock_quantity>390</stock_quantity>
   </item>
   <item id="44876374475018">
     <stock_quantity>3</stock_quantity>
   </item>
   <item id="44876381749514">
-    <stock_quantity>70</stock_quantity>
+    <stock_quantity>67</stock_quantity>
   </item>
   <item id="45653841871114">
     <stock_quantity>8</stock_quantity>
@@ -67,10 +67,10 @@
     <stock_quantity>20</stock_quantity>
   </item>
   <item id="51594245013770">
-    <stock_quantity>117</stock_quantity>
+    <stock_quantity>107</stock_quantity>
   </item>
   <item id="51968968458506">
-    <stock_quantity>19</stock_quantity>
+    <stock_quantity>18</stock_quantity>
   </item>
   <item id="52381994483978">
     <stock_quantity>6</stock_quantity>
@@ -94,7 +94,7 @@
     <stock_quantity>1</stock_quantity>
   </item>
   <item id="52809982771466">
-    <stock_quantity>16</stock_quantity>
+    <stock_quantity>15</stock_quantity>
   </item>
   <item id="52809983328522">
     <stock_quantity>3</stock_quantity>
@@ -109,25 +109,25 @@
     <stock_quantity>5</stock_quantity>
   </item>
   <item id="53243499348234">
-    <stock_quantity>89</stock_quantity>
+    <stock_quantity>85</stock_quantity>
   </item>
   <item id="53353857679626">
-    <stock_quantity>35</stock_quantity>
+    <stock_quantity>33</stock_quantity>
   </item>
   <item id="53354136305930">
-    <stock_quantity>37</stock_quantity>
+    <stock_quantity>36</stock_quantity>
   </item>
   <item id="53354149970186">
     <stock_quantity>20</stock_quantity>
   </item>
   <item id="53354406412554">
-    <stock_quantity>37</stock_quantity>
+    <stock_quantity>36</stock_quantity>
   </item>
   <item id="53354406445322">
-    <stock_quantity>37</stock_quantity>
+    <stock_quantity>36</stock_quantity>
   </item>
   <item id="53354406478090">
-    <stock_quantity>37</stock_quantity>
+    <stock_quantity>36</stock_quantity>
   </item>
   <item id="53354406543626">
     <stock_quantity>26</stock_quantity>
@@ -136,7 +136,7 @@
     <stock_quantity>3</stock_quantity>
   </item>
   <item id="53354406641930">
-    <stock_quantity>100</stock_quantity>
+    <stock_quantity>97</stock_quantity>
   </item>
   <item id="53973899116810">
     <stock_quantity>13</stock_quantity>
@@ -157,6 +157,6 @@
     <stock_quantity>25</stock_quantity>
   </item>
   <item id="54190179909898">
-    <stock_quantity>37</stock_quantity>
+    <stock_quantity>36</stock_quantity>
   </item>
 </item_list>
